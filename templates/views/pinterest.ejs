@@ -299,6 +299,21 @@
               </div>
               <%}%>
               <%}%>
+
+              <% if(kylieJenner.length  > 0){%>
+                <% for(var k = 0;k<kylieJenner.length;k++){%>
+                <div class="col-sm-4 col-12" style = "margin-top: 10px;">
+                  <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="<%=kylieJenner[k].imgUrl%>" style="height: 160px;" alt="Card image cap">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title"><%=kendallJenner[k].Brand%></h5>
+                      <p class="card-text"><%=kendallJenner[k].productInfo%></p>
+                      <a href="#" class="btn btn-primary"><%=kendallJenner[k].Trending%></a> -->
+                    </div>
+                  </div>
+                </div>
+                <%}%>
+                <%}%>
             
             
           </div>
