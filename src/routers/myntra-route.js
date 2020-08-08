@@ -2,6 +2,11 @@ const express = require('express');
 var myntra = require('../models/myntra.js');
 const router = new express.Router()
 
+
+
+var majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [];
+var subCatMenFin = [],subCatWomenFin=[], topwearMyntra = [];
+
 router.get('/myntra', (req, res) => {
 
     async function f1(req, rep) {
@@ -67,7 +72,7 @@ router.get('/myntra', (req, res) => {
         }
         else {
             console.log(subCatWomenFin);
-            res.render("myntra", { subCatWomenFin,topwearMyntra, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("myntra", { subCatWomenFin,topwearMyntra, majCatFin, subCatMenFin });
         }
 
 
@@ -75,7 +80,7 @@ router.get('/myntra', (req, res) => {
 
     f1();
 })
-var topwearMyntra = [];
+
 router.get('/myntraTopwear', (req, res) => {
 
     async function f1(req, rep) {
@@ -151,7 +156,7 @@ router.get('/myntraTopwear', (req, res) => {
         if(temp3.err)console.log(err)
         else {
             console.log(topwearMyntra);
-            res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen,topwearMyntra });
+            res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin,topwearMyntra });
 
         }
 
