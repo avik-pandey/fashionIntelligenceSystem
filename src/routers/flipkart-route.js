@@ -3137,14 +3137,14 @@ router.get('/flipkartTopwear', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Topwear" }, function (err, collection) {
             if (err) console.log(err)
-            sneakersMen = collection;
+            topWearMen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sneakersMen);
+            console.log(topWearMen);
             res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -3230,14 +3230,14 @@ router.get('/flipkartT-Shirts', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "T-Shirts" }, function (err, collection) {
             if (err) console.log(err)
-            sneakersMen = collection;
+            tShirts = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sneakersMen);
+            console.log(tShirts);
             res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -3323,14 +3323,14 @@ router.get('/flipkartFormal%20Shirts', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Formal Shirts" }, function (err, collection) {
             if (err) console.log(err)
-            sneakersMen = collection;
+            formalShirtsMen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sneakersMen);
+            console.log(formalShirtsMen);
             res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
