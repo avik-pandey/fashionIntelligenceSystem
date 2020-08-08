@@ -49,7 +49,7 @@
 
       .navbar .dropdown-menu.fade-up {
         top: 180%;
-        width: 900px;
+        width: 400px;
         height: 400px;
       }
 
@@ -290,25 +290,13 @@
                         </div>
                         
                         <div class="col-sm-2">
-                          <% for(var j=13;j<26;j++) {%>
+                          <% for(var j=13;j<20;j++) {%>
                           <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
                           <%}%>
                         </div>
-                        <div class="col-sm-2">
-                          <% for(var j=26;j<39;j++) {%>
-                          <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
-                          <%}%>
-                        </div>
-                        <div class="col-sm-2">
-                          <% for(var j=39;j<52;j++) {%>
-                          <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
-                          <%}%>
-                        </div>
-                        <div class="col-sm-2">
-                          <% for(var j=52;j<subCatMenFin.length;j++) {%>
-                          <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
-                          <%}%>
-                        </div>
+                        
+                        
+                        
                         <% }; %>
   
                           <%if (i == 1) {%>
@@ -320,25 +308,11 @@
                           </div>
                           
                           <div class="col-sm-2">
-                            <% for(var j=13;j<26;j++) {%>
+                            <% for(var j=13;j<20;j++) {%>
                             <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a></li>
                             <%}%>
                           </div>
-                          <div class="col-sm-2">
-                            <% for(var j=26;j<39;j++) {%>
-                            <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a></li>
-                            <%}%>
-                          </div>
-                          <div class="col-sm-2">
-                            <% for(var j=39;j<52;j++) {%>
-                            <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a></li>
-                            <%}%>
-                          </div>
-                          <div class="col-sm-2">
-                            <% for(var j=52;j<subCatMenFin.length;j++) {%>
-                            <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a></li>
-                            <%}%>
-                          </div>
+                          
                           <% }; %>
   
                           </div>
