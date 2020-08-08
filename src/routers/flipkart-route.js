@@ -111,14 +111,14 @@ router.get('/flipkartShorts', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Shorts" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            shortsWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(shortsWomen);
             res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -207,14 +207,14 @@ router.get('/flipkartTopwear', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Topwear" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            topwearWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(topwearWomen);
             res.render("flipkart", { subCatWomenFin, clothingWomen, skirtsWomen, shortsWomen, dressesWomen, jeansWomen, majCatFin, topwearWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -305,14 +305,14 @@ router.get('/flipkartClothing', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Clothing" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            clothingWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(clothingWomen);
             res.render("flipkart", { subCatWomenFin, majCatFin, jeansWomen, topwearWomen, shortsWomen, skirtsWomen, dressesWomen,  clothingWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -401,14 +401,14 @@ router.get('/flipkartJeans', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Jeans" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            jeansWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(jeansWomen);
             res.render("flipkart", { subCatWomenFin, skirtsWomen, shortsWomen, clothingWomen, dressesWomen, topwearWomen, majCatFin, jeansWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -496,14 +496,14 @@ router.get('/flipkartDresses', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Dresses" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            dressesWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(dressesWomen);
             res.render("flipkart", { subCatWomenFin, clothingWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -592,14 +592,14 @@ router.get('/flipkartJeggings%20&%20Tights', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Jeggings & Tights" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            jeggTights = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(jeggTights);
             res.render("flipkart", { subCatWomenFin, clothingWomen, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -689,14 +689,14 @@ router.get('/flipkartTrousers%20&%20Capris', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Trousers & Capris" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            trousersCapris= collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(trousersCapris);
             res.render("flipkart", { subCatWomenFin, clothingWomen, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -792,14 +792,14 @@ router.get('/flipkartSkirts', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Skirts" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            skirts = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(skirts);
             res.render("flipkart", { subCatWomenFin, clothingWomen, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -890,14 +890,14 @@ router.get('/flipkartLingerie%20&%20Sleepwear', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Lingerie & Sleepwear" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            lingerieSleepwear = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(lingerieSleepwear);
             res.render("flipkart", { subCatWomenFin, clothingWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -989,14 +989,14 @@ router.get('/flipkartBras', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Bras" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            brasWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(brasWomen);
             res.render("flipkart", { subCatWomenFin, clothingWomen, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1089,14 +1089,14 @@ router.get('/flipkartPanties', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Panties" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            panties = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(panties);
             res.render("flipkart", { subCatWomenFin, clothingWomen, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1190,14 +1190,14 @@ router.get('/flipkartLingerie%20Sets', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Lingerie Sets" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            lingerieSets = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(lingerieSets);
             res.render("flipkart", { subCatWomenFin, clothingWomen, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1292,14 +1292,14 @@ router.get('/flipkartNight%20Sets%20Dresses%20&%20Nighties%20Gowns', (req, res) 
 
         let temp3 = await flipkart.find({ subCategory: "Night Dresses & Nighties Gowns" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            dressesGowns = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(dressesGowns);
             res.render("flipkart", { subCatWomenFin, clothingWomen, dressesGowns, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1395,14 +1395,14 @@ router.get('/flipkartShapewear', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Shapewear" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            shapewear = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(shapewear);
             res.render("flipkart", { subCatWomenFin, clothingWomen, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1499,14 +1499,14 @@ router.get('/flipkartCamisoles%20&%20Slips', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Camisoles & Slips" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            camisolesSlips = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(camisolesSlips);
             res.render("flipkart", { subCatWomenFin, clothingWomen, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1604,14 +1604,14 @@ router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Swim & Beachwear" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            swimBeachWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(swimBeachWomen);
             res.render("flipkart", { subCatWomenFin, clothingWomen, swimBeachWomen, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1709,14 +1709,14 @@ router.get('/flipkartParty%20Dresses', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Party Dresses" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            partyDresses = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(partyDresses);
             res.render("flipkart", { subCatWomenFin, clothingWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1816,14 +1816,14 @@ router.get('/flipkartSports%20Wear', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Sports Wear" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            sportsWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(sportsWomen);
             res.render("flipkart", { subCatWomenFin, clothingWomen, sportsWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
@@ -1923,20 +1923,127 @@ router.get('/flipkartWinter%20Wear', (req, res) => {
 
         let temp3 = await flipkart.find({ subCategory: "Winter Wear" }, function (err, collection) {
             if (err) console.log(err)
-            sportShoesMen = collection;
+            winterWomen = collection;
             modelsFin = [];
         })
         if (temp3.err) {
             console.log(err)
         }
         else {
-            console.log(sportShoesMen);
+            console.log(winterWomen);
             res.render("flipkart", { subCatWomenFin, clothingWomen, winterWomen, sportsWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
 })
 
+var sarees= [];
+router.get('/flipkartSarees', (req, res) => {
+
+    footwearMen = [];
+    skirtsWomen=[];
+    brasWomen= [];
+    sportsWomen=[];
+    partyDresses= [];
+    swimBeachWomen=[];
+    shapewear= [];
+    camisolesSlips=[];
+    panties=[];
+    lingerieSets=[];
+    dressesGowns= [];
+    lingerieSleepwear= [];
+    dressesWomen=[];
+    trousersCapris=[];
+    jeggTights= [];
+    clothingWomen= [];
+    topwearWomen=[];
+    shortsWomen=[];
+    jeansWomen=[];
+    casualShoesMen = [];
+    formalShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    sneakersMen = [];
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Sarees" }, function (err, collection) {
+            if (err) console.log(err)
+            sarees = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(sarees);
+            res.render("flipkart", { subCatWomenFin, sarees, clothingWomen, winterWomen, sportsWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
 
 
 
@@ -2027,7 +2134,7 @@ router.get('/flipkartFootwear', (req, res) => {
         }
         else {
             console.log(footwearMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2119,7 +2226,7 @@ router.get('/flipkartSports%20Shoes', (req, res) => {
         }
         else {
             console.log(sportShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2213,7 +2320,7 @@ router.get('/flipkartClothing', (req, res) => {
         }
         else {
             console.log(sportShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2306,7 +2413,7 @@ router.get('/flipkartCasual%20Shoes', (req, res) => {
         }
         else {
             console.log(casualShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2398,7 +2505,7 @@ router.get('/flipkartFormal%20Shoes', (req, res) => {
         }
         else {
             console.log(formalShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2415,7 +2522,7 @@ router.get('/flipkartSandals%20&%20Floaters', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [],clothingMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
 
     async function f1(req, rep) {
 
@@ -2488,7 +2595,7 @@ router.get('/flipkartSandals%20&%20Floaters', (req, res) => {
         }
         else {
             console.log(sandalsMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2505,7 +2612,7 @@ router.get('/flipkartFlip-%20Flops', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [],clothingMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [], clothingMen = [];
 
     async function f1(req, rep) {
 
@@ -2578,7 +2685,7 @@ router.get('/flipkartFlip-%20Flops', (req, res) => {
         }
         else {
             console.log(flipflopsMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2669,7 +2776,7 @@ router.get('/flipkartLoafers', (req, res) => {
         }
         else {
             console.log(loafersMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2686,7 +2793,7 @@ router.get('/flipkartBoots', (req, res) => {
     formalShoesMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [],clothingMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
 
     async function f1(req, rep) {
 
@@ -2759,7 +2866,7 @@ router.get('/flipkartBoots', (req, res) => {
         }
         else {
             console.log(bootsMen.length, "ok");
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2777,7 +2884,7 @@ router.get('/flipkartRunning%20Shoes', (req, res) => {
     formalShoesMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [],clothingMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
 
 
     async function f1(req, rep) {
@@ -2851,7 +2958,7 @@ router.get('/flipkartRunning%20Shoes', (req, res) => {
         }
         else {
             console.log(footwearMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
@@ -2868,7 +2975,7 @@ router.get('/flipkartSneakers', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [],clothingMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
 
 
 
@@ -2944,11 +3051,856 @@ router.get('/flipkartSneakers', (req, res) => {
         }
         else {
             console.log(sneakersMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
     }
     f1();
 })
+
+
+router.get('/flipkartTopwear', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Topwear" }, function (err, collection) {
+            if (err) console.log(err)
+            sneakersMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(sneakersMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartT-Shirts', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "T-Shirts" }, function (err, collection) {
+            if (err) console.log(err)
+            sneakersMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(sneakersMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartFormal%20Shirts', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Formal Shirts" }, function (err, collection) {
+            if (err) console.log(err)
+            sneakersMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(sneakersMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartCasual%20Shirts', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Casual Shirts" }, function (err, collection) {
+            if (err) console.log(err)
+            casualShirtsMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(casualShirtsMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartBottom%20wear', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Bottom wear" }, function (err, collection) {
+            if (err) console.log(err)
+            bottomWear = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(bottomWear);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartJeans', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Jeans" }, function (err, collection) {
+            if (err) console.log(err)
+            jeansMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(jeansMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartCasual%20Trousers', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Casual Trousers" }, function (err, collection) {
+            if (err) console.log(err)
+            casualTrousersMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(casualTrousersMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartFormal%20Trousers', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Formal trousers" }, function (err, collection) {
+            if (err) console.log(err)
+            formalTrousersMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(formalTrousersMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+router.get('/flipkartTrack%20Pants', (req, res) => {
+
+    footwearMen = [];
+    sportShoesMen = [];
+    casualShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
+    loafersMen = [];
+    bootsMen = [];
+    runningShoesMen = [];
+    formalShoesMen = [];
+    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
+
+
+
+
+    async function f1(req, rep) {
+
+        let temp = await flipkart.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+        }
+
+        let temp1 = await flipkart.find({ majorCategory: 'Men' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+
+        }
+
+        let temp3 = await flipkart.find({ subCategory: "Track Pants" }, function (err, collection) {
+            if (err) console.log(err)
+            trackPantsMen = collection;
+            modelsFin = [];
+        })
+        if (temp3.err) {
+            console.log(err)
+        }
+        else {
+            console.log(trackPantsMen);
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+    }
+    f1();
+})
+
+
+
+
+
+
+
 
 router.get('/flipkart', (req, res) => {
 
@@ -3026,7 +3978,7 @@ router.get('/flipkart', (req, res) => {
         }
         else {
 
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,shortsMen ,cargosMen ,threeFourthsMen ,suitsMen ,tiesMen ,fabricsMen ,winterWearMen ,sweatshirtsMen ,jacketsMen ,sweaterMen ,trackMen ,ethnicMen ,kurtaMen ,ethnicSuitsMen ,sherwanis ,ethnicPyjamaMen ,dhotiMen ,lungiMen ,innerwearMen ,briefsMen ,vestsMen ,boxersMen ,pyjamasMen ,thermalsMen ,nightSuitsMen ,raincoatsMen ,fastrackMen ,CasioMen ,titanMen ,fossilMen ,sonataMen ,backpacksMen ,walletsMen ,beltsMen ,sunglassesMen ,luggageMen ,framesMen ,jewlleryMen ,adidasMen ,reebokMen ,skechersMen ,nikeMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
 
