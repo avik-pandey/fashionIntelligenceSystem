@@ -276,83 +276,85 @@
 
               <ul class="navbar-nav">
                 <% for(var i=0;i<majCatFin.length;i++) {%>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"><%= majCatFin[i]%></a>
-  
-                    <ul class="dropdown-menu fade-up">
-                      <div class="row">
-                        <%if (i == 0) {%>
-                        <div class="col-sm-6">
-                          <% for(var j=0;j<13;j++) {%>
-                          <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
-                          <%}%>
+                <li class="nav-item dropdown">
+                  <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"><%= majCatFin[i]%></a>
+
+                  <ul class="dropdown-menu fade-up">
+                    <div class="row">
+                      <%if (i == 0) {%>
+                      <div class="col-sm-6">
+                        <% for(var j=0;j<13;j++) {%>
+                        <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
+                        <%}%>
                           
                         </div>
                         
                         <div class="col-sm-6">
                           <% for(var j=13;j<20;j++) {%>
-                          <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
-                          <%}%>
+                        <li><a class="dropdown-item" href="/myntra<%=subCatMenFin[j]%>"> <%=subCatMenFin[j]%></a></li>
+                        <%}%>
                         </div>
                         
                         
                         
                         <% }; %>
-  
-                          <%if (i == 1) {%>
-                          <div class="col-sm-6">
-                            <% for(var j=0;j<13;j++) {%>
-                            <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a></li>
-                            <%}%>
+
+                        <%if (i == 1) {%>
+                        <div class="col-sm-6">
+                          <% for(var j=0;j<13;j++) {%>
+                          <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a>
+                          </li>
+                          <%}%>
                             
                           </div>
                           
                           <div class="col-sm-6">
                             <% for(var j=13;j<20;j++) {%>
-                            <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a></li>
-                            <%}%>
+                          <li><a class="dropdown-item" href="/myntra<%=subCatWomenFin[j]%>"> <%=subCatWomenFin[j]%></a>
+                          </li>
+                          <%}%>
                           </div>
                           
                           <% }; %>
-  
-                          </div>
-  
-  
-  
-                    </ul>
-  
-  
-  
-                  </li>
-                  <% } %>
+
+                        </div>
+
+
+
+                  </ul>
+
+
+
+                </li>
+                <% } %>
               </ul>
-               
-              
+
+
 
             </div> <!-- navbar-collapse.// -->
           </nav>
-         <div class="container">
-          <div class="row" style = "margin-top: 40px;">
-            <% if(topwearMyntra.length  > 0){%>
-              <% for(var k = 0;k<topwearMyntra.length;k++){%>
+          <div class="container">
+            <div class="row" style="margin-top: 40px;">
+              <% if(topwearMen.length  > 0){%>
+              <% for(var k = 0;k<topwearMen.length;k++){%>
               <div class="col-sm-4 col-12">
                 <div class="card" style="width: 14rem;">
-                  <img class="card-img-top" src="<%=topwearMyntra[k].Image%>"
+                  <img class="card-img-top" src="<%=topwearMen[k].Image%>"
                     style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-6">
                         <h5 class="card-title" style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
-                          <b><%=topwearMyntra[k].Brand%></b></h5>
+                          <b><%=topwearMen[k].Brand%></b></h5>
                       </div>
-                      <% if(topwearMyntra[k].Trending){%>
+                      <% if(topwearMen[k].Trending){%>
                       <div class="col-6">
                         <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">Trending</h5>
                       </div>
                       <%}%>
                     </div>
                     
-                    <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=topwearMyntra[k].productInfo%>
+                    <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=topwearMen[k].productInfo%>
                       </p>
 
                     </div>
@@ -360,53 +362,1326 @@
                 </div>
                 <%}%>
               <%}%>
-            
-            
-          </div>
+
+                <% if(tShirtsMen.length  > 0){%>
+                <% for(var k = 0;k<tShirtsMen.length;k++){%>
+                <div class="col-sm-4 col-12">
+                  <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="<%=tShirtsMen[k].Image%>"
+                      style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-6">
+                          <h5 class="card-title" style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                            <b><%=tShirtsMen[k].Brand%></b></h5>
+                        </div>
+                        <% if(tShirtsMen[k].Trending){%>
+                        <div class="col-6">
+                          <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">Trending</h5>
+                        </div>
+                        <%}%>
+                      </div>
+                      
+                      <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=tShirtsMen[k].productInfo%>
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <%}%>
+                <%}%>
+
+                  <% if(casualShirtsMen.length  > 0){%>
+                  <% for(var k = 0;k<casualShirtsMen.length;k++){%>
+                  <div class="col-sm-4 col-12">
+                    <div class="card" style="width: 14rem;">
+                      <img class="card-img-top" src="<%=casualShirtsMen[k].Image%>"
+                        style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-6">
+                            <h5 class="card-title" style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                              <b><%=casualShirtsMen[k].Brand%></b></h5>
+                          </div>
+                          <% if(casualShirtsMen[k].Trending){%>
+                          <div class="col-6">
+                            <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">Trending</h5>
+                          </div>
+                          <%}%>
+                        </div>
+                        
+                        <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=casualShirtsMen[k].productInfo%>
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <%}%>
+                  <%}%>
 
 
-         </div>
-          
+                    <% if(formalShirtsMen.length  > 0){%>
+                    <% for(var k = 0;k<formalShirtsMen.length;k++){%>
+                    <div class="col-sm-4 col-12">
+                      <div class="card" style="width: 14rem;">
+                        <img class="card-img-top" src="<%=formalShirtsMen[k].Image%>"
+                          style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-6">
+                              <h5 class="card-title" style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                <b><%=formalShirtsMen[k].Brand%></b></h5>
+                            </div>
+                            <% if(formalShirtsMen[k].Trending){%>
+                            <div class="col-6">
+                              <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">Trending</h5>
+                            </div>
+                            <%}%>
+                          </div>
+                          
+                          <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=formalShirtsMen[k].productInfo%>
+                            </p>
+
+                          </div>
+                        </div>
+                      </div>
+                      <%}%>
+                    <%}%>
+
+                      <% if(sweatShirtsMen.length  > 0){%>
+                      <% for(var k = 0;k<sweatShirtsMen.length;k++){%>
+                      <div class="col-sm-4 col-12">
+                        <div class="card" style="width: 14rem;">
+                          <img class="card-img-top" src="<%=sweatShirtsMen[k].Image%>"
+                            style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                          <div class="card-body">
+                            <div class="row">
+                              <div class="col-6">
+                                <h5 class="card-title" style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                  <b><%=sweatShirtsMen[k].Brand%></b></h5>
+                              </div>
+                              <% if(sweatShirtsMen[k].Trending){%>
+                              <div class="col-6">
+                                <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">Trending
+                                </h5>
+                              </div>
+                              <%}%>
+                            </div>
+                            
+                            <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=sweatShirtsMen[k].productInfo%>
+                              </p>
+
+                            </div>
+                          </div>
+                        </div>
+                        <%}%>
+                      <%}%>
+
+                        <% if(sweatersMen.length  > 0){%>
+                        <% for(var k = 0;k<sweatersMen.length;k++){%>
+                        <div class="col-sm-4 col-12">
+                          <div class="card" style="width: 14rem;">
+                            <img class="card-img-top" src="<%=sweatersMen[k].Image%>"
+                              style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                            <div class="card-body">
+                              <div class="row">
+                                <div class="col-6">
+                                  <h5 class="card-title" style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                    <b><%=sweatersMen[k].Brand%></b></h5>
+                                </div>
+                                <% if(sweatersMen[k].Trending){%>
+                                <div class="col-6">
+                                  <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">Trending
+                                  </h5>
+                                </div>
+                                <%}%>
+                              </div>
+                              
+                              <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=sweatersMen[k].productInfo%>
+                                </p>
+
+                              </div>
+                            </div>
+                          </div>
+                          <%}%>
+                        <%}%>
+
+                          <% if(jacketsMen.length  > 0){%>
+                          <% for(var k = 0;k<jacketsMen.length;k++){%>
+                          <div class="col-sm-4 col-12">
+                            <div class="card" style="width: 14rem;">
+                              <img class="card-img-top" src="<%=jacketsMen[k].Image%>"
+                                style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-6">
+                                    <h5 class="card-title"
+                                      style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                      <b><%=jacketsMen[k].Brand%></b></h5>
+                                  </div>
+                                  <% if(jacketsMen[k].Trending){%>
+                                  <div class="col-6">
+                                    <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">Trending
+                                    </h5>
+                                  </div>
+                                  <%}%>
+                                </div>
+                                
+                                <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=jacketsMen[k].productInfo%>
+                                  </p>
+
+                                </div>
+                              </div>
+                            </div>
+                            <%}%>
+                          <%}%>
+
+                            <% if(blazersMen.length  > 0){%>
+                            <% for(var k = 0;k<blazersMen.length;k++){%>
+                            <div class="col-sm-4 col-12">
+                              <div class="card" style="width: 14rem;">
+                                <img class="card-img-top" src="<%=blazersMen[k].Image%>"
+                                  style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                                <div class="card-body">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <h5 class="card-title"
+                                        style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                        <b><%=blazersMen[k].Brand%></b></h5>
+                                    </div>
+                                    <% if(blazersMen[k].Trending){%>
+                                    <div class="col-6">
+                                      <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                        Trending</h5>
+                                    </div>
+                                    <%}%>
+                                  </div>
+                                  
+                                  <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=blazersMen[k].productInfo%>
+                                    </p>
+
+                                  </div>
+                                </div>
+                              </div>
+                              <%}%>
+                            <%}%>
+
+                              <% if(suitsMen.length  > 0){%>
+                              <% for(var k = 0;k<suitsMen.length;k++){%>
+                              <div class="col-sm-4 col-12">
+                                <div class="card" style="width: 14rem;">
+                                  <img class="card-img-top" src="<%=suitsMen[k].Image%>"
+                                    style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <h5 class="card-title"
+                                          style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                          <b><%=suitsMen[k].Brand%></b></h5>
+                                      </div>
+                                      <% if(suitsMen[k].Trending){%>
+                                      <div class="col-6">
+                                        <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                          Trending</h5>
+                                      </div>
+                                      <%}%>
+                                    </div>
+                                    
+                                    <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=suitsMen[k].productInfo%>
+                                      </p>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                <%}%>
+                              <%}%>
+
+                                <% if(rainJacketsMen.length  > 0){%>
+                                <% for(var k = 0;k<rainJacketsMen.length;k++){%>
+                                <div class="col-sm-4 col-12">
+                                  <div class="card" style="width: 14rem;">
+                                    <img class="card-img-top" src="<%=rainJacketsMen[k].Image%>"
+                                      style="height: 100px;margin-bottom: -10px;margin-top: 5px;" alt="Card image cap">
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-6">
+                                          <h5 class="card-title"
+                                            style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                            <b><%=rainJacketsMen[k].Brand%></b></h5>
+                                        </div>
+                                        <% if(rainJacketsMen[k].Trending){%>
+                                        <div class="col-6">
+                                          <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                            Trending</h5>
+                                        </div>
+                                        <%}%>
+                                      </div>
+                                      
+                                      <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=rainJacketsMen[k].productInfo%>
+                                        </p>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <%}%>
+                                <%}%>
+
+                                  <% if(indianWearMen.length  > 0){%>
+                                  <% for(var k = 0;k<indianWearMen.length;k++){%>
+                                  <div class="col-sm-4 col-12">
+                                    <div class="card" style="width: 14rem;">
+                                      <img class="card-img-top" src="<%=indianWearMen[k].Image%>"
+                                        style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                        alt="Card image cap">
+                                      <div class="card-body">
+                                        <div class="row">
+                                          <div class="col-6">
+                                            <h5 class="card-title"
+                                              style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                              <b><%=indianWearMen[k].Brand%></b></h5>
+                                          </div>
+                                          <% if(indianWearMen[k].Trending){%>
+                                          <div class="col-6">
+                                            <h5 style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                              Trending</h5>
+                                          </div>
+                                          <%}%>
+                                        </div>
+                                        
+                                        <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=indianWearMen[k].productInfo%>
+                                          </p>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <%}%>
+                                  <%}%>
+
+                                    <% if(kurtasMen.length  > 0){%>
+                                    <% for(var k = 0;k<kurtasMen.length;k++){%>
+                                    <div class="col-sm-4 col-12">
+                                      <div class="card" style="width: 14rem;">
+                                        <img class="card-img-top" src="<%=kurtasMen[k].Image%>"
+                                          style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                          alt="Card image cap">
+                                        <div class="card-body">
+                                          <div class="row">
+                                            <div class="col-6">
+                                              <h5 class="card-title"
+                                                style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                <b><%=kurtasMen[k].Brand%></b></h5>
+                                            </div>
+                                            <% if(kurtasMen[k].Trending){%>
+                                            <div class="col-6">
+                                              <h5
+                                                style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                Trending</h5>
+                                            </div>
+                                            <%}%>
+                                          </div>
+                                          
+                                          <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=kurtasMen[k].productInfo%>
+                                            </p>
+
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <%}%>
+                                    <%}%>
+
+                                      <% if(sherwanisMen.length  > 0){%>
+                                      <% for(var k = 0;k<sherwanisMen.length;k++){%>
+                                      <div class="col-sm-4 col-12">
+                                        <div class="card" style="width: 14rem;">
+                                          <img class="card-img-top" src="<%=sherwanisMen[k].Image%>"
+                                            style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                            alt="Card image cap">
+                                          <div class="card-body">
+                                            <div class="row">
+                                              <div class="col-6">
+                                                <h5 class="card-title"
+                                                  style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                  <b><%=sherwanisMen[k].Brand%></b></h5>
+                                              </div>
+                                              <% if(sherwanisMen[k].Trending){%>
+                                              <div class="col-6">
+                                                <h5
+                                                  style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                  Trending</h5>
+                                              </div>
+                                              <%}%>
+                                            </div>
+                                            
+                                            <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=sherwanisMen[k].productInfo%>
+                                              </p>
+
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <%}%>
+                                      <%}%>
+
+                                        <% if(nehruJacketsMen.length  > 0){%>
+                                        <% for(var k = 0;k<nehruJacketsMen.length;k++){%>
+                                        <div class="col-sm-4 col-12">
+                                          <div class="card" style="width: 14rem;">
+                                            <img class="card-img-top" src="<%=nehruJacketsMen[k].Image%>"
+                                              style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                              alt="Card image cap">
+                                            <div class="card-body">
+                                              <div class="row">
+                                                <div class="col-6">
+                                                  <h5 class="card-title"
+                                                    style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                    <b><%=nehruJacketsMen[k].Brand%></b></h5>
+                                                </div>
+                                                <% if(nehruJacketsMen[k].Trending){%>
+                                                <div class="col-6">
+                                                  <h5
+                                                    style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                    Trending</h5>
+                                                </div>
+                                                <%}%>
+                                              </div>
+                                              
+                                              <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=nehruJacketsMen[k].productInfo%>
+                                                </p>
+
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <%}%>
+                                        <%}%>
+
+                                          <% if(dhotisMen.length  > 0){%>
+                                          <% for(var k = 0;k<dhotisMen.length;k++){%>
+                                          <div class="col-sm-4 col-12">
+                                            <div class="card" style="width: 14rem;">
+                                              <img class="card-img-top" src="<%=dhotisMen[k].Image%>"
+                                                style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                alt="Card image cap">
+                                              <div class="card-body">
+                                                <div class="row">
+                                                  <div class="col-6">
+                                                    <h5 class="card-title"
+                                                      style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                      <b><%=dhotisMen[k].Brand%></b></h5>
+                                                  </div>
+                                                  <% if(dhotisMen[k].Trending){%>
+                                                  <div class="col-6">
+                                                    <h5
+                                                      style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                      Trending</h5>
+                                                  </div>
+                                                  <%}%>
+                                                </div>
+                                                
+                                                <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=dhotisMen[k].productInfo%>
+                                                  </p>
+
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <%}%>
+                                          <%}%>
+
+                                            <% if(bottomwearMen.length  > 0){%>
+                                            <% for(var k = 0;k<bottomwearMen.length;k++){%>
+                                            <div class="col-sm-4 col-12">
+                                              <div class="card" style="width: 14rem;">
+                                                <img class="card-img-top" src="<%=bottomwearMen[k].Image%>"
+                                                  style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                  alt="Card image cap">
+                                                <div class="card-body">
+                                                  <div class="row">
+                                                    <div class="col-6">
+                                                      <h5 class="card-title"
+                                                        style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                        <b><%=bottomwearMen[k].Brand%></b></h5>
+                                                    </div>
+                                                    <% if(bottomwearMen[k].Trending){%>
+                                                    <div class="col-6">
+                                                      <h5
+                                                        style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                        Trending</h5>
+                                                    </div>
+                                                    <%}%>
+                                                  </div>
+                                                  
+                                                  <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=bottomwearMen[k].productInfo%>
+                                                    </p>
+
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <%}%>
+                                            <%}%>
+
+                                              <% if(jeansMen.length  > 0){%>
+                                              <% for(var k = 0;k<jeansMen.length;k++){%>
+                                              <div class="col-sm-4 col-12">
+                                                <div class="card" style="width: 14rem;">
+                                                  <img class="card-img-top" src="<%=jeansMen[k].Image%>"
+                                                    style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                    alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <div class="row">
+                                                      <div class="col-6">
+                                                        <h5 class="card-title"
+                                                          style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                          <b><%=jeansMen[k].Brand%></b></h5>
+                                                      </div>
+                                                      <% if(jeansMen[k].Trending){%>
+                                                      <div class="col-6">
+                                                        <h5
+                                                          style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                          Trending</h5>
+                                                      </div>
+                                                      <%}%>
+                                                    </div>
+                                                    
+                                                    <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=jeansMen[k].productInfo%>
+                                                      </p>
+
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <%}%>
+                                              <%}%>
+
+                                                <% if(casualTrousersMen.length  > 0){%>
+                                                <% for(var k = 0;k<casualTrousersMen.length;k++){%>
+                                                <div class="col-sm-4 col-12">
+                                                  <div class="card" style="width: 14rem;">
+                                                    <img class="card-img-top" src="<%=casualTrousersMen[k].Image%>"
+                                                      style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                      alt="Card image cap">
+                                                    <div class="card-body">
+                                                      <div class="row">
+                                                        <div class="col-6">
+                                                          <h5 class="card-title"
+                                                            style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                            <b><%=casualTrousersMen[k].Brand%></b></h5>
+                                                        </div>
+                                                        <% if(casualTrousersMen[k].Trending){%>
+                                                        <div class="col-6">
+                                                          <h5
+                                                            style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                            Trending</h5>
+                                                        </div>
+                                                        <%}%>
+                                                      </div>
+                                                      
+                                                      <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=casualTrousersMen[k].productInfo%>
+                                                        </p>
+
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <%}%>
+                                                <%}%>
+
+                                                  <% if(formalTrousersMen.length  > 0){%>
+                                                  <% for(var k = 0;k<formalTrousersMen.length;k++){%>
+                                                  <div class="col-sm-4 col-12">
+                                                    <div class="card" style="width: 14rem;">
+                                                      <img class="card-img-top" src="<%=formalTrousersMen[k].Image%>"
+                                                        style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                        alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <div class="row">
+                                                          <div class="col-6">
+                                                            <h5 class="card-title"
+                                                              style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                              <b><%=formalTrousersMen[k].Brand%></b></h5>
+                                                          </div>
+                                                          <% if(formalTrousersMen[k].Trending){%>
+                                                          <div class="col-6">
+                                                            <h5
+                                                              style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                              Trending</h5>
+                                                          </div>
+                                                          <%}%>
+                                                        </div>
+                                                        
+                                                        <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=formalTrousersMen[k].productInfo%>
+                                                          </p>
+
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <%}%>
+                                                  <%}%>
+
+                                                    <% if(shortsMen.length  > 0){%>
+                                                    <% for(var k = 0;k<shortsMen.length;k++){%>
+                                                    <div class="col-sm-4 col-12">
+                                                      <div class="card" style="width: 14rem;">
+                                                        <img class="card-img-top" src="<%=shortsMen[k].Image%>"
+                                                          style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                          alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <div class="row">
+                                                            <div class="col-6">
+                                                              <h5 class="card-title"
+                                                                style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                <b><%=shortsMen[k].Brand%></b></h5>
+                                                            </div>
+                                                            <% if(shortsMen[k].Trending){%>
+                                                            <div class="col-6">
+                                                              <h5
+                                                                style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                Trending</h5>
+                                                            </div>
+                                                            <%}%>
+                                                          </div>
+                                                          
+                                                          <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=shortsMen[k].productInfo%>
+                                                            </p>
+
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <%}%>
+                                                    <%}%>
+
+                                                      <% if(indianWearWomen.length  > 0){%>
+                                                      <% for(var k = 0;k<indianWearWomen.length;k++){%>
+                                                      <div class="col-sm-4 col-12">
+                                                        <div class="card" style="width: 14rem;">
+                                                          <img class="card-img-top" src="<%=indianWearWomen[k].Image%>"
+                                                            style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                            alt="Card image cap">
+                                                          <div class="card-body">
+                                                            <div class="row">
+                                                              <div class="col-6">
+                                                                <h5 class="card-title"
+                                                                  style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                  <b><%=indianWearWomen[k].Brand%></b></h5>
+                                                              </div>
+                                                              <% if(indianWearWomen[k].Trending){%>
+                                                              <div class="col-6">
+                                                                <h5
+                                                                  style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                  Trending</h5>
+                                                              </div>
+                                                              <%}%>
+                                                            </div>
+                                                            
+                                                            <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=indianWearWomen[k].productInfo%>
+                                                              </p>
+
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        <%}%>
+                                                      <%}%>
+
+                                                        <% if(kurtasWomen.length  > 0){%>
+                                                        <% for(var k = 0;k<kurtasWomen.length;k++){%>
+                                                        <div class="col-sm-4 col-12">
+                                                          <div class="card" style="width: 14rem;">
+                                                            <img class="card-img-top" src="<%=kurtasWomen[k].Image%>"
+                                                              style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                              alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <div class="row">
+                                                                <div class="col-6">
+                                                                  <h5 class="card-title"
+                                                                    style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                    <b><%=kurtasWomen[k].Brand%></b></h5>
+                                                                </div>
+                                                                <% if(kurtasWomen[k].Trending){%>
+                                                                <div class="col-6">
+                                                                  <h5
+                                                                    style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                    Trending</h5>
+                                                                </div>
+                                                                <%}%>
+                                                              </div>
+                                                              
+                                                              <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=kurtasWomen[k].productInfo%>
+                                                                </p>
+
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <%}%>
+                                                        <%}%>
+
+                                                          <% if(kurtisWomen.length  > 0){%>
+                                                          <% for(var k = 0;k<kurtisWomen.length;k++){%>
+                                                          <div class="col-sm-4 col-12">
+                                                            <div class="card" style="width: 14rem;">
+                                                              <img class="card-img-top"
+                                                                src="<%=kurtisWomen[k].Image%>"
+                                                                style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                alt="Card image cap">
+                                                              <div class="card-body">
+                                                                <div class="row">
+                                                                  <div class="col-6">
+                                                                    <h5 class="card-title"
+                                                                      style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                      <b><%=kurtisWomen[k].Brand%></b></h5>
+                                                                  </div>
+                                                                  <% if(kurtisWomen[k].Trending){%>
+                                                                  <div class="col-6">
+                                                                    <h5
+                                                                      style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                      Trending</h5>
+                                                                  </div>
+                                                                  <%}%>
+                                                                </div>
+                                                                
+                                                                <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=kurtisWomen[k].productInfo%>
+                                                                  </p>
+
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <%}%>
+                                                          <%}%>
 
 
-        </div>
-        <!-- /.container-fluid -->
+                                                            <% if(ethnicWomen.length  > 0){%>
+                                                            <% for(var k = 0;k<ethnicWomen.length;k++){%>
+                                                            <div class="col-sm-4 col-12">
+                                                              <div class="card" style="width: 14rem;">
+                                                                <img class="card-img-top"
+                                                                  src="<%=ethnicWomen[k].Image%>"
+                                                                  style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                  alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <div class="row">
+                                                                    <div class="col-6">
+                                                                      <h5 class="card-title"
+                                                                        style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                        <b><%=ethnicWomen[k].Brand%></b></h5>
+                                                                    </div>
+                                                                    <% if(ethnicWomen[k].Trending){%>
+                                                                    <div class="col-6">
+                                                                      <h5
+                                                                        style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                        Trending</h5>
+                                                                    </div>
+                                                                    <%}%>
+                                                                  </div>
+                                                                  
+                                                                  <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=ethnicWomen[k].productInfo%>
+                                                                    </p>
 
-      </div>
-      <!-- End of Main Content -->
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <%}%>
+                                                            <%}%>
 
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2020</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
+                                                              <% if(leggingsWomen.length  > 0){%>
+                                                              <% for(var k = 0;k<leggingsWomen.length;k++){%>
+                                                              <div class="col-sm-4 col-12">
+                                                                <div class="card" style="width: 14rem;">
+                                                                  <img class="card-img-top"
+                                                                    src="<%=leggingsWomen[k].Image%>"
+                                                                    style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                    alt="Card image cap">
+                                                                  <div class="card-body">
+                                                                    <div class="row">
+                                                                      <div class="col-6">
+                                                                        <h5 class="card-title"
+                                                                          style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                          <b><%=leggingsWomen[k].Brand%></b></h5>
+                                                                      </div>
+                                                                      <% if(leggingsWomen[k].Trending){%>
+                                                                      <div class="col-6">
+                                                                        <h5
+                                                                          style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                          Trending</h5>
+                                                                      </div>
+                                                                      <%}%>
+                                                                    </div>
+                                                                    
+                                                                    <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=leggingsWomen[k].productInfo%>
+                                                                      </p>
 
-    </div>
-    <!-- End of Content Wrapper -->
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                                <%}%>
+                                                              <%}%>
 
-  </div>
-  <!-- End of Page Wrapper -->
+                                                                <% if(skirtsWomen.length  > 0){%>
+                                                                <% for(var k = 0;k<skirtsWomen.length;k++){%>
+                                                                <div class="col-sm-4 col-12">
+                                                                  <div class="card" style="width: 14rem;">
+                                                                    <img class="card-img-top"
+                                                                      src="<%=skirtsWomen[k].Image%>"
+                                                                      style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                      alt="Card image cap">
+                                                                    <div class="card-body">
+                                                                      <div class="row">
+                                                                        <div class="col-6">
+                                                                          <h5 class="card-title"
+                                                                            style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                            <b><%=skirtsWomen[k].Brand%></b></h5>
+                                                                        </div>
+                                                                        <% if(skirtsWomen[k].Trending){%>
+                                                                        <div class="col-6">
+                                                                          <h5
+                                                                            style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                            Trending</h5>
+                                                                        </div>
+                                                                        <%}%>
+                                                                      </div>
+                                                                      
+                                                                      <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=skirtsWomen[k].productInfo%>
+                                                                        </p>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  <%}%>
+                                                                <%}%>
+
+                                                                  <% if(sareesWomen.length  > 0){%>
+                                                                  <% for(var k = 0;k<sareesWomen.length;k++){%>
+                                                                  <div class="col-sm-4 col-12">
+                                                                    <div class="card" style="width: 14rem;">
+                                                                      <img class="card-img-top"
+                                                                        src="<%=sareesWomen[k].Image%>"
+                                                                        style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                        alt="Card image cap">
+                                                                      <div class="card-body">
+                                                                        <div class="row">
+                                                                          <div class="col-6">
+                                                                            <h5 class="card-title"
+                                                                              style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                              <b><%=sareesWomen[k].Brand%></b></h5>
+                                                                          </div>
+                                                                          <% if(sareesWomen[k].Trending){%>
+                                                                          <div class="col-6">
+                                                                            <h5
+                                                                              style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                              Trending</h5>
+                                                                          </div>
+                                                                          <%}%>
+                                                                        </div>
+                                                                        
+                                                                        <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=sareesWomen[k].productInfo%>
+                                                                          </p>
+
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <%}%>
+                                                                  <%}%>
+
+                                                                    <% if(dressWomen.length  > 0){%>
+                                                                    <% for(var k = 0;k<dressWomen.length;k++){%>
+                                                                    <div class="col-sm-4 col-12">
+                                                                      <div class="card" style="width: 14rem;">
+                                                                        <img class="card-img-top"
+                                                                          src="<%=dressWomen[k].Image%>"
+                                                                          style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                          alt="Card image cap">
+                                                                        <div class="card-body">
+                                                                          <div class="row">
+                                                                            <div class="col-6">
+                                                                              <h5 class="card-title"
+                                                                                style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                <b><%=dressWomen[k].Brand%></b></h5>
+                                                                            </div>
+                                                                            <% if(dressWomen[k].Trending){%>
+                                                                            <div class="col-6">
+                                                                              <h5
+                                                                                style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                Trending</h5>
+                                                                            </div>
+                                                                            <%}%>
+                                                                          </div>
+                                                                          
+                                                                          <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=dressWomen[k].productInfo%>
+                                                                            </p>
+
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <%}%>
+                                                                    <%}%>
+
+                                                                      <% if(lehengaWomen.length  > 0){%>
+                                                                      <% for(var k = 0;k<lehengaWomen.length;k++){%>
+                                                                      <div class="col-sm-4 col-12">
+                                                                        <div class="card" style="width: 14rem;">
+                                                                          <img class="card-img-top"
+                                                                            src="<%=lehengaWomen[k].Image%>"
+                                                                            style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                            alt="Card image cap">
+                                                                          <div class="card-body">
+                                                                            <div class="row">
+                                                                              <div class="col-6">
+                                                                                <h5 class="card-title"
+                                                                                  style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                  <b><%=lehengaWomen[k].Brand%></b>
+                                                                                </h5>
+                                                                              </div>
+                                                                              <% if(lehengaWomen[k].Trending){%>
+                                                                              <div class="col-6">
+                                                                                <h5
+                                                                                  style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                  Trending</h5>
+                                                                              </div>
+                                                                              <%}%>
+                                                                            </div>
+                                                                            
+                                                                            <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=lehengaWomen[k].productInfo%>
+                                                                              </p>
+
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        <%}%>
+                                                                      <%}%>
+
+                                                                        <% if(dupattasWomen.length  > 0){%>
+                                                                        <% for(var k = 0;k<dupattasWomen.length;k++){%>
+                                                                        <div class="col-sm-4 col-12">
+                                                                          <div class="card" style="width: 14rem;">
+                                                                            <img class="card-img-top"
+                                                                              src="<%=dupattasWomen[k].Image%>"
+                                                                              style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                              alt="Card image cap">
+                                                                            <div class="card-body">
+                                                                              <div class="row">
+                                                                                <div class="col-6">
+                                                                                  <h5 class="card-title"
+                                                                                    style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                    <b><%=dupattasWomen[k].Brand%></b>
+                                                                                  </h5>
+                                                                                </div>
+                                                                                <% if(dupattasWomen[k].Trending){%>
+                                                                                <div class="col-6">
+                                                                                  <h5
+                                                                                    style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                    Trending</h5>
+                                                                                </div>
+                                                                                <%}%>
+                                                                              </div>
+                                                                              
+                                                                              <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=dupattasWomen[k].productInfo%>
+                                                                                </p>
+
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          <%}%>
+                                                                        <%}%>
+
+                                                                          <% if(jacketsWomen.length  > 0){%>
+                                                                          <% for(var k = 0;k<jacketsWomen.length;k++){%>
+                                                                          <div class="col-sm-4 col-12">
+                                                                            <div class="card" style="width: 14rem;">
+                                                                              <img class="card-img-top"
+                                                                                src="<%=jacketsWomen[k].Image%>"
+                                                                                style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                alt="Card image cap">
+                                                                              <div class="card-body">
+                                                                                <div class="row">
+                                                                                  <div class="col-6">
+                                                                                    <h5 class="card-title"
+                                                                                      style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                      <b><%=jacketsWomen[k].Brand%></b>
+                                                                                    </h5>
+                                                                                  </div>
+                                                                                  <% if(jacketsWomen[k].Trending){%>
+                                                                                  <div class="col-6">
+                                                                                    <h5
+                                                                                      style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                      Trending</h5>
+                                                                                  </div>
+                                                                                  <%}%>
+                                                                                </div>
+                                                                                
+                                                                                <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=jacketsWomen[k].productInfo%>
+                                                                                  </p>
+
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <%}%>
+                                                                          <%}%>
+
+                                                                            <% if(beltsWomen.length  > 0){%>
+                                                                            <% for(var k = 0;k<beltsWomen.length;k++){%>
+                                                                            <div class="col-sm-4 col-12">
+                                                                              <div class="card" style="width: 14rem;">
+                                                                                <img class="card-img-top"
+                                                                                  src="<%=beltsWomen[k].Image%>"
+                                                                                  style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                  alt="Card image cap">
+                                                                                <div class="card-body">
+                                                                                  <div class="row">
+                                                                                    <div class="col-6">
+                                                                                      <h5 class="card-title"
+                                                                                        style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                        <b><%=beltsWomen[k].Brand%></b>
+                                                                                      </h5>
+                                                                                    </div>
+                                                                                    <% if(beltsWomen[k].Trending){%>
+                                                                                    <div class="col-6">
+                                                                                      <h5
+                                                                                        style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                        Trending</h5>
+                                                                                    </div>
+                                                                                    <%}%>
+                                                                                  </div>
+                                                                                  
+                                                                                  <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=beltsWomen[k].productInfo%>
+                                                                                    </p>
+
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <%}%>
+                                                                            <%}%>
+
+                                                                              <% if(watchesWomen.length  > 0){%>
+                                                                              <% for(var k = 0;k<watchesWomen.length;k++){%>
+                                                                              <div class="col-sm-4 col-12">
+                                                                                <div class="card" style="width: 14rem;">
+                                                                                  <img class="card-img-top"
+                                                                                    src="<%=watchesWomen[k].Image%>"
+                                                                                    style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                    alt="Card image cap">
+                                                                                  <div class="card-body">
+                                                                                    <div class="row">
+                                                                                      <div class="col-6">
+                                                                                        <h5 class="card-title"
+                                                                                          style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                          <b><%=watchesWomen[k].Brand%></b>
+                                                                                        </h5>
+                                                                                      </div>
+                                                                                      <% if(watchesWomen[k].Trending){%>
+                                                                                      <div class="col-6">
+                                                                                        <h5
+                                                                                          style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                          Trending</h5>
+                                                                                      </div>
+                                                                                      <%}%>
+                                                                                    </div>
+                                                                                    
+                                                                                    <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=watchesWomen[k].productInfo%>
+                                                                                      </p>
+
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <%}%>
+                                                                              <%}%>
+
+                                                                                <% if(westernWomen.length  > 0){%>
+                                                                                <% for(var k = 0;k<westernWomen.length;k++){%>
+                                                                                <div class="col-sm-4 col-12">
+                                                                                  <div class="card"
+                                                                                    style="width: 14rem;">
+                                                                                    <img class="card-img-top"
+                                                                                      src="<%=westernWomen[k].Image%>"
+                                                                                      style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                      alt="Card image cap">
+                                                                                    <div class="card-body">
+                                                                                      <div class="row">
+                                                                                        <div class="col-6">
+                                                                                          <h5 class="card-title"
+                                                                                            style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                            <b><%=westernWomen[k].Brand%></b>
+                                                                                          </h5>
+                                                                                        </div>
+                                                                                        <% if(westernWomen[k].Trending){%>
+                                                                                        <div class="col-6">
+                                                                                          <h5
+                                                                                            style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                            Trending</h5>
+                                                                                        </div>
+                                                                                        <%}%>
+                                                                                      </div>
+                                                                                      
+                                                                                      <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=westernWomen[k].productInfo%>
+                                                                                        </p>
+
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <%}%>
+                                                                                <%}%>
+
+                                                                                  <% if(jumpsuitsWomen.length  > 0){%>
+                                                                                  <% for(var k = 0;k<jumpsuitsWomen.length;k++){%>
+                                                                                  <div class="col-sm-4 col-12">
+                                                                                    <div class="card"
+                                                                                      style="width: 14rem;">
+                                                                                      <img class="card-img-top"
+                                                                                        src="<%=topwearMyntra[k].Image%>"
+                                                                                        style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                        alt="Card image cap">
+                                                                                      <div class="card-body">
+                                                                                        <div class="row">
+                                                                                          <div class="col-6">
+                                                                                            <h5 class="card-title"
+                                                                                              style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                              <b><%=jumpsuitsWomen[k].Brand%></b>
+                                                                                            </h5>
+                                                                                          </div>
+                                                                                          <% if(jumpsuitsWomen[k].Trending){%>
+                                                                                          <div class="col-6">
+                                                                                            <h5
+                                                                                              style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                              Trending</h5>
+                                                                                          </div>
+                                                                                          <%}%>
+                                                                                        </div>
+                                                                                        
+                                                                                        <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=jumpsuitsWomen[k].productInfo%>
+                                                                                          </p>
+
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                    <%}%>
+                                                                                  <%}%>
+
+                                                                                    <% if(topsWomen.length  > 0){%>
+                                                                                    <% for(var k = 0;k<topsWomen.length;k++){%>
+                                                                                    <div class="col-sm-4 col-12">
+                                                                                      <div class="card"
+                                                                                        style="width: 14rem;">
+                                                                                        <img class="card-img-top"
+                                                                                          src="<%=topsWomen[k].Image%>"
+                                                                                          style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                          alt="Card image cap">
+                                                                                        <div class="card-body">
+                                                                                          <div class="row">
+                                                                                            <div class="col-6">
+                                                                                              <h5 class="card-title"
+                                                                                                style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                                <b><%=topsWomen[k].Brand%></b>
+                                                                                              </h5>
+                                                                                            </div>
+                                                                                            <% if(topsWomen[k].Trending){%>
+                                                                                            <div class="col-6">
+                                                                                              <h5
+                                                                                                style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                                Trending</h5>
+                                                                                            </div>
+                                                                                            <%}%>
+                                                                                          </div>
+                                                                                          
+                                                                                          <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=topsWomen[k].productInfo%>
+                                                                                            </p>
+
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                      <%}%>
+                                                                                    <%}%>
+
+
+                                                                                      <% if(jeansWomen.length  > 0){%>
+                                                                                      <% for(var k = 0;k<jeansWomen.length;k++){%>
+                                                                                      <div class="col-sm-4 col-12">
+                                                                                        <div class="card"
+                                                                                          style="width: 14rem;">
+                                                                                          <img class="card-img-top"
+                                                                                            src="<%=jeansWomen[k].Image%>"
+                                                                                            style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                            alt="Card image cap">
+                                                                                          <div class="card-body">
+                                                                                            <div class="row">
+                                                                                              <div class="col-6">
+                                                                                                <h5 class="card-title"
+                                                                                                  style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                                  <b><%=jeansWomen[k].Brand%></b>
+                                                                                                </h5>
+                                                                                              </div>
+                                                                                              <% if(jeansWomen[k].Trending){%>
+                                                                                              <div class="col-6">
+                                                                                                <h5
+                                                                                                  style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                                  Trending</h5>
+                                                                                              </div>
+                                                                                              <%}%>
+                                                                                            </div>
+                                                                                            
+                                                                                            <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=jeansWomen[k].productInfo%>
+                                                                                              </p>
+
+                                                                                            </div>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                        <%}%>
+                                                                                      <%}%>
+
+                                                                                        <% if(trousersWomen.length  > 0){%>
+                                                                                        <% for(var k = 0;k<trousersWomen.length;k++){%>
+                                                                                        <div class="col-sm-4 col-12">
+                                                                                          <div class="card"
+                                                                                            style="width: 14rem;">
+                                                                                            <img class="card-img-top"
+                                                                                              src="<%=trousersWomen[k].Image%>"
+                                                                                              style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                              alt="Card image cap">
+                                                                                            <div class="card-body">
+                                                                                              <div class="row">
+                                                                                                <div class="col-6">
+                                                                                                  <h5 class="card-title"
+                                                                                                    style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                                    <b><%=trousersWomen[k].Brand%></b>
+                                                                                                  </h5>
+                                                                                                </div>
+                                                                                                <% if(trousersWomen[k].Trending){%>
+                                                                                                <div class="col-6">
+                                                                                                  <h5
+                                                                                                    style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                                    Trending</h5>
+                                                                                                </div>
+                                                                                                <%}%>
+                                                                                              </div>
+                                                                                              
+                                                                                              <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=trousersWomen[k].productInfo%>
+                                                                                                </p>
+
+                                                                                              </div>
+                                                                                            </div>
+                                                                                          </div>
+                                                                                          <%}%>
+                                                                                        <%}%>
+
+                                                                                          <% if(shirtsWomen.length  > 0){%>
+                                                                                          <% for(var k = 0;k<shirtsWomen.length;k++){%>
+                                                                                          <div class="col-sm-4 col-12">
+                                                                                            <div class="card"
+                                                                                              style="width: 14rem;">
+                                                                                              <img class="card-img-top"
+                                                                                                src="<%=shirtsWomen[k].Image%>"
+                                                                                                style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                                alt="Card image cap">
+                                                                                              <div class="card-body">
+                                                                                                <div class="row">
+                                                                                                  <div class="col-6">
+                                                                                                    <h5
+                                                                                                      class="card-title"
+                                                                                                      style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                                      <b><%=shirtsWomen[k].Brand%></b>
+                                                                                                    </h5>
+                                                                                                  </div>
+                                                                                                  <% if(shirtsWomen[k].Trending){%>
+                                                                                                  <div class="col-6">
+                                                                                                    <h5
+                                                                                                      style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                                      Trending</h5>
+                                                                                                  </div>
+                                                                                                  <%}%>
+                                                                                                </div>
+                                                                                                
+                                                                                                <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=shirtsWomen[k].productInfo%>
+                                                                                                  </p>
+
+                                                                                                </div>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                            <%}%>
+                                                                                          <%}%>
+
+                                                                                            <% if(shrugsWomen.length  > 0){%>
+                                                                                            <% for(var k = 0;k<shrugsWomen.length;k++){%>
+                                                                                            <div
+                                                                                              class="col-sm-4 col-12">
+                                                                                              <div class="card"
+                                                                                                style="width: 14rem;">
+                                                                                                <img
+                                                                                                  class="card-img-top"
+                                                                                                  src="<%=shrugsWomen[k].Image%>"
+                                                                                                  style="height: 100px;margin-bottom: -10px;margin-top: 5px;"
+                                                                                                  alt="Card image cap">
+                                                                                                <div class="card-body">
+                                                                                                  <div class="row">
+                                                                                                    <div class="col-6">
+                                                                                                      <h5
+                                                                                                        class="card-title"
+                                                                                                        style="font-size: 18px;margin-bottom: -10px;margin-top: -5px;">
+                                                                                                        <b><%=shrugsWomen[k].Brand%></b>
+                                                                                                      </h5>
+                                                                                                    </div>
+                                                                                                    <% if(shrugsWomen[k].Trending){%>
+                                                                                                    <div class="col-6">
+                                                                                                      <h5
+                                                                                                        style="font-size: 14px;margin-top: -5px;margin-bottom: -10px;color:red">
+                                                                                                        Trending</h5>
+                                                                                                    </div>
+                                                                                                    <%}%>
+                                                                                                  </div>
+                                                                                                  
+                                                                                                  <p class="card-text" style = "font-size: 12px;margin-bottom: -10px;margin-top: 5px;"><%=shrugsWomen[k].productInfo%>
+                                                                                                    </p>
+
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                              <%}%>
+                                                                                            <%}%>
+
+
+                                                                                            </div>
+
+
+                                                                                          </div>
 
 
 
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                                                                                        </div>
+                                                                                        <!-- /.container-fluid -->
 
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                                                                                      </div>
+                                                                                      <!-- End of Main Content -->
 
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
+                                                                                      <!-- Footer -->
+                                                                                      <footer
+                                                                                        class="sticky-footer bg-white">
+                                                                                        <div class="container my-auto">
+                                                                                          <div
+                                                                                            class="copyright text-center my-auto">
+                                                                                            <span>Copyright &copy; Your
+                                                                                              Website 2020</span>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </footer>
+                                                                                      <!-- End of Footer -->
+
+                                                                                    </div>
+                                                                                    <!-- End of Content Wrapper -->
+
+                                                                                  </div>
+                                                                                  <!-- End of Page Wrapper -->
+
+                                                                                  <!-- Scroll to Top Button-->
+                                                                                  <a class="scroll-to-top rounded"
+                                                                                    href="#page-top">
+                                                                                    <i class="fas fa-angle-up"></i>
+                                                                                  </a>
+
+
+
+                                                                                  <!-- Bootstrap core JavaScript-->
+                                                                                  <script
+                                                                                    src="vendor/jquery/jquery.min.js"></script>
+                                                                                  <script
+                                                                                    src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+                                                                                  <!-- Core plugin JavaScript-->
+                                                                                  <script
+                                                                                    src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+                                                                                  <!-- Custom scripts for all pages-->
+                                                                                  <script
+                                                                                    src="js/sb-admin-2.min.js"></script>
 
 </body>
 
