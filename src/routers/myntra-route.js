@@ -9,7 +9,7 @@ var subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualS
 
 router.get('/myntra', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -74,7 +74,7 @@ router.get('/myntra', (req, res) => {
         }
         else {
             console.log(subCatWomenFin);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
         }
 
 
@@ -85,7 +85,7 @@ router.get('/myntra', (req, res) => {
 
 router.get('/myntraTopwear', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -160,7 +160,7 @@ router.get('/myntraTopwear', (req, res) => {
         if(temp3.err)console.log(err)
         else {
             console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -170,7 +170,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraT-Shirts', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -240,14 +240,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'T-Shirts'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else tShirtsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(tShirtsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -257,7 +257,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraCasual%20Shirts', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -327,14 +327,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Casual Shirts'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else casualShirtsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(casualShirtsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -344,7 +344,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraFormal%20Shirts', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -414,14 +414,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Formal Shirts'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else formalShirtsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(formalShirtsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -431,7 +431,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraSweatshirts', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -501,14 +501,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Sweatshirts'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else sweatShirtsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(sweatShirtsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -518,7 +518,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraSweaters', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -588,14 +588,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Sweaters'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else sweatersMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(sweatersMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -605,7 +605,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraJackets', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -675,14 +675,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Jackets'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else jacketsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(jacketsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -692,7 +692,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraBlazers%20&%20Coats', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -762,14 +762,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Blazers & Coats'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else blazersMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(blazersMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -779,7 +779,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraSuits', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -849,14 +849,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Suits'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else suitsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(suitsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -866,7 +866,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraRain%20Jackets', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -936,14 +936,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Rain Jackets'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else rainJacketsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(rainJacketsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -953,7 +953,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraIndian%20&%20Festive%20Wear', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1023,14 +1023,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Indian & Festive Wear'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else indianWearMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(indianWearMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1040,7 +1040,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraKurtas%20&%20Kurta%20Sets', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1110,14 +1110,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Kurtas & Kurta Sets'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else kurtasMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(kurtasMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1127,7 +1127,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraSherwanis', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1197,14 +1197,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Sherwanis'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else sherwanisMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(sherwanisMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1214,7 +1214,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraNehru%20Jackets', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1284,14 +1284,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Nehru Jackets'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else nehruJacketsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(nehruJacketsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1301,7 +1301,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraDhotis', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1371,14 +1371,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Dhotis'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else dhotisMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(dhotisMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1388,7 +1388,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraBottomwear', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1458,14 +1458,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Bottomwear'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else BottomwearMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(BottomwearMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1475,7 +1475,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraJeans', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1545,14 +1545,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Jeans'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else jeansMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(jeansMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1562,7 +1562,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraCasual%20Trousers', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1632,14 +1632,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Casual Trousers'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else casualTrousersMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(casualTrousersMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1649,7 +1649,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraFormal%20Trousers', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1719,14 +1719,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Formal Trousers'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else formalTrousersMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(formalTrousersMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1736,7 +1736,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraShorts', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1806,14 +1806,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Shorts'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else shortsMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(shortsMen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1823,7 +1823,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraIndian%20&%20Fusion%20Wear', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1893,14 +1893,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Indian & Fusion Wear'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else indianWearWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(indianWearWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1910,7 +1910,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraKurtas%20&%20Suits', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -1980,14 +1980,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Kurta & Suits'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else kurtasWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(kurtasWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -1997,7 +1997,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraKurtis,%20Tunics%20&%20Tops', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2067,14 +2067,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Kurtas, Tunics & Tops'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else kurtisWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(kurtisWomen);
+            res.render("myntra", {majCatFin, subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2084,7 +2084,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraEthnic%20Dresses', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2154,14 +2154,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Ethnic Dresses'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else ethnicWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(ethnicWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2171,7 +2171,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraLeggings,%20Salwars%20&%20Churidars', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2241,14 +2241,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Leggings, Salwars & Churidars'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else leggingsWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(leggingsWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2258,7 +2258,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraSkirts%20&%20Palazzos', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2328,14 +2328,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Skirts & Palazzos'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else skirtsWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(skirtsWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2345,7 +2345,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraSarees%20&%20Blouses', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2415,14 +2415,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Sarees & Blouses'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else sareesWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(sareesWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2432,7 +2432,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraDress%20Materials', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2502,14 +2502,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Dress Materials'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else dressWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(dressWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2519,7 +2519,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraLehenga%20Cholis', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2589,14 +2589,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Lehenga Cholis'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else lehengaWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(lehengaWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2606,7 +2606,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraDupattas%20&%20Shawls', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2676,14 +2676,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Dupattas & Shawls'},function(err,collection){
            if(err)console.log(err)
            else topwearMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
             console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2693,7 +2693,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraJackets%20&%20Waistcoats', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2763,14 +2763,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Jackets & Waistcoats'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else jacketsWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(jacketsWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2780,7 +2780,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraBelts,%20Scarves%20&%20More', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2850,14 +2850,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Belts, Scarves & More'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else beltsWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(beltsWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2867,7 +2867,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraWatches%20&%20Wearable', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -2937,14 +2937,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Watches & Wearables'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else watchesWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(watchesWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -2954,7 +2954,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraWestern%20Wear', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -3024,14 +3024,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Western Wear'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else westernWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(westernWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -3041,7 +3041,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraDresses%20&%20Jumpsuits', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -3111,14 +3111,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Dresses & Jumpsuits'},function(err,collection){
            if(err)console.log(err)
            else topwearMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
             console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            res.render("myntra", {majCatFin, subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -3128,7 +3128,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraTops,%20T-Shirts%20&%20Shirts', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -3198,14 +3198,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Tops, T-Shirts & Shirts'},function(err,collection){
            if(err)console.log(err)
            else topwearMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
             console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -3215,7 +3215,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraJeans%20&%20Jeggings', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -3285,14 +3285,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Jeans & Jeggings'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else jeansWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(jeansWomen);
+            res.render("myntra", {majCatFin, subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -3302,7 +3302,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraTrousers%20&%20Capris', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -3372,14 +3372,14 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Trousers & Capris'},function(err,collection){
            if(err)console.log(err)
            else topwearMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
             console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            res.render("myntra", {majCatFin, subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
@@ -3389,7 +3389,7 @@ router.get('/myntraTopwear', (req, res) => {
     f1();
 })
 
-router.get('/myntraTopwear', (req, res) => {
+router.get('/myntraShorts%20&%20Skirts', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
@@ -3459,14 +3459,101 @@ router.get('/myntraTopwear', (req, res) => {
             // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
-        let temp3 = await myntra.find({subCategory:'Topwear'},function(err,collection){
+        let temp3 = await myntra.find({subCategory:'Shorts & Skirts'},function(err,collection){
            if(err)console.log(err)
-           else topwearMen = collection;
+           else shirtsWomen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(topwearMen);
-            res.render("myntra", { subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+            console.log(shirtsWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
+
+        }
+
+
+    }
+
+    f1();
+})
+
+router.get('/myntraShrugs', (req, res) => {
+
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+
+    async function f1(req, rep) {
+
+
+        let temp = await myntra.find({}, function (err, collection) {
+            if (err) console.log(err);
+
+            allItems = collection;
+            for (var i = 0; i < allItems.length; i++) {
+                var fake = allItems[i].majorCategory;
+                majCat.push(fake);
+            }
+
+            majCatFin = Array.from(new Set(majCat));
+
+        });
+        if (temp.err) {
+            console.log(err)
+        }
+        else {
+            console.log("1");
+            console.log(majCatFin);
+            // res.render("myntra",{subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen })
+        }
+
+        let temp1 = await myntra.find({ majorCategory: 'MEN' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allMenItems = collection;
+
+            for (var i = 0; i < allMenItems.length; i++) {
+                var fake = allMenItems[i].subCategory
+                subCatMen.push(fake);
+            }
+
+            subCatMenFin = Array.from(new Set(subCatMen));
+
+        });
+        if (temp1.err) {
+            console.log(err)
+        }
+        else {
+          console.log(subCatMenFin);
+        }
+
+        let temp2 = await myntra.find({ majorCategory: 'WOMEN' }, function (err, collection) {
+            if (err)
+                console.log(err)
+            allWomenItems = collection;
+
+            for (var i = 0; i < allWomenItems.length; i++) {
+                var fake = allWomenItems[i].subCategory
+                subCatWomen.push(fake);
+            }
+
+            subCatWomenFin = Array.from(new Set(subCatWomen));
+            footwearMen = []; modelsFin = [];
+        });
+
+        if (temp2.err) {
+            console.log(err)
+        }
+        else {
+            console.log(subCatWomenFin);
+            // res.render("myntra", { subCatWomenFin, majCatFin, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+        }
+
+        let temp3 = await myntra.find({subCategory:'Shrugs'},function(err,collection){
+           if(err)console.log(err)
+           else shrugsWomen = collection;
+        })
+        if(temp3.err)console.log(err)
+        else {
+            console.log(shrugsWomen);
+            res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
 
