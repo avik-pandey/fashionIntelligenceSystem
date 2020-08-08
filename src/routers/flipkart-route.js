@@ -39,6 +39,7 @@ router.get('/flipkartShorts', (req, res) => {
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
+    sarees=[];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -121,7 +122,7 @@ router.get('/flipkartShorts', (req, res) => {
         }
         else {
             console.log(shortsWomen);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });
         }
     }
     f1();
@@ -136,6 +137,7 @@ router.get('/flipkartTopwear', (req, res) => {
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
+    sarees=[];
     skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
@@ -219,8 +221,7 @@ router.get('/flipkartTopwear', (req, res) => {
         }
         else {
             console.log(topwearWomen);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, skirtsWomen, shortsWomen, dressesWomen, jeansWomen, majCatFin, topwearWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -234,6 +235,7 @@ router.get('/flipkartClothing', (req, res) => {
     footwearMen = [];
     clothingWomen=[];
     dressesWomen= [];
+    sarees=[];
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
@@ -319,8 +321,7 @@ router.get('/flipkartClothing', (req, res) => {
         }
         else {
             console.log(clothingWomen);
-            res.render("flipkart", { subCatWomenFin, majCatFin, jeansWomen, topwearWomen, shortsWomen, skirtsWomen, dressesWomen,  clothingWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -332,6 +333,7 @@ router.get('/flipkartJeans', (req, res) => {
     footwearMen = [];
     clothingWomen=[];
     dressesWomen= [];
+    sarees=[];
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
@@ -417,8 +419,7 @@ router.get('/flipkartJeans', (req, res) => {
         }
         else {
             console.log(jeansWomen);
-            res.render("flipkart", { subCatWomenFin, skirtsWomen, shortsWomen, clothingWomen, dressesWomen, topwearWomen, majCatFin, jeansWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -428,6 +429,7 @@ router.get('/flipkartDresses', (req, res) => {
 
     footwearMen = [];
     clothingWomen=[];
+    sarees=[];
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
@@ -514,8 +516,7 @@ router.get('/flipkartDresses', (req, res) => {
         }
         else {
             console.log(dressesWomen);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -525,6 +526,7 @@ router.get('/flipkartJeggings%20&%20Tights', (req, res) => {
 
     footwearMen = [];
     skirtsWomen=[];
+    sarees=[];
     dressesWomen=[];
     clothingWomen= [];
     topwearWomen=[];
@@ -610,8 +612,7 @@ router.get('/flipkartJeggings%20&%20Tights', (req, res) => {
         }
         else {
             console.log(jeggTights);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -620,6 +621,7 @@ var trousersCapris= [];
 router.get('/flipkartTrousers%20&%20Capris', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -707,8 +709,7 @@ router.get('/flipkartTrousers%20&%20Capris', (req, res) => {
         }
         else {
             console.log(trousersCapris);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -730,6 +731,7 @@ router.get('/flipkartSkirts', (req, res) => {
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
+    sarees=[];
     sneakersMen = [];
     jeggTights= [];
     trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
@@ -805,8 +807,7 @@ router.get('/flipkartSkirts', (req, res) => {
         }
         else {
             console.log(skirts);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -818,6 +819,7 @@ router.get('/flipkartLingerie%20&%20Sleepwear', (req, res) => {
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
+    sarees=[];
     jeansWomen= [];
     skirtsWomen= [];
     casualShoesMen = [];
@@ -901,8 +903,7 @@ router.get('/flipkartLingerie%20&%20Sleepwear', (req, res) => {
         }
         else {
             console.log(lingerieSleepwear);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -912,6 +913,7 @@ router.get('/flipkartBras', (req, res) => {
 
     footwearMen = [];
     clothingWomen=[];
+    sarees=[];
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
@@ -997,8 +999,7 @@ router.get('/flipkartBras', (req, res) => {
         }
         else {
             console.log(brasWomen);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1007,6 +1008,7 @@ var panties= [];
 router.get('/flipkartPanties', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -1093,8 +1095,7 @@ router.get('/flipkartPanties', (req, res) => {
         }
         else {
             console.log(panties);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1103,6 +1104,7 @@ var lingerieSets= [];
 router.get('/flipkartLingerie%20Sets', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -1190,8 +1192,7 @@ router.get('/flipkartLingerie%20Sets', (req, res) => {
         }
         else {
             console.log(lingerieSets);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1200,6 +1201,7 @@ var dressesGowns= [];
 router.get('/flipkartNight%20Sets%20Dresses%20&%20Nighties%20Gowns', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -1286,8 +1288,7 @@ router.get('/flipkartNight%20Sets%20Dresses%20&%20Nighties%20Gowns', (req, res) 
         }
         else {
             console.log(dressesGowns);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesGowns, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1301,6 +1302,7 @@ router.get('/flipkartShapewear', (req, res) => {
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
+    sarees=[];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1383,8 +1385,7 @@ router.get('/flipkartShapewear', (req, res) => {
         }
         else {
             console.log(shapewear);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1398,6 +1399,7 @@ router.get('/flipkartCamisoles%20&%20Slips', (req, res) => {
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
+    sarees=[];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1479,8 +1481,7 @@ router.get('/flipkartCamisoles%20&%20Slips', (req, res) => {
         }
         else {
             console.log(camisolesSlips);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1490,6 +1491,7 @@ router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
 
     footwearMen = [];
     clothingWomen=[];
+    sarees=[];
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
@@ -1576,8 +1578,7 @@ router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
         }
         else {
             console.log(swimBeachWomen);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, swimBeachWomen, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1585,6 +1586,7 @@ var partyDresses= [];
 router.get('/flipkartParty%20Dresses', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -1672,8 +1674,7 @@ router.get('/flipkartParty%20Dresses', (req, res) => {
         }
         else {
             console.log(partyDresses);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1684,6 +1685,7 @@ router.get('/flipkartSports%20Wear', (req, res) => {
     footwearMen = [];
     clothingWomen=[];
     dressesWomen= [];
+    sarees=[];
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
@@ -1768,8 +1770,7 @@ router.get('/flipkartSports%20Wear', (req, res) => {
         }
         else {
             console.log(sportsWomen);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, sportsWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1777,6 +1778,7 @@ var winterWomen= [];
 router.get('/flipkartWinter%20Wear', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -1864,8 +1866,7 @@ router.get('/flipkartWinter%20Wear', (req, res) => {
         }
         else {
             console.log(winterWomen);
-            res.render("flipkart", { subCatWomenFin, clothingWomen, winterWomen, sportsWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1876,6 +1877,7 @@ router.get('/flipkartSarees', (req, res) => {
     footwearMen = [];
     clothingWomen=[];
     dressesWomen= [];
+    sarees=[];
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
@@ -1960,8 +1962,7 @@ router.get('/flipkartSarees', (req, res) => {
         }
         else {
             console.log(sarees);
-            res.render("flipkart", { subCatWomenFin, sarees, clothingWomen, winterWomen, sportsWomen, swimBeachWomen, partyDresses, camisolesSlips, dressesGowns, shapewear, lingerieSets, panties, brasWomen, lingerieSleepwear, trousersCapris, jeggTights, dressesWomen, topwearWomen, shortsWomen, skirtsWomen, jeansWomen, majCatFin, dressesWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -1974,6 +1975,7 @@ router.get('/flipkartFootwear', (req, res) => {
 
     footwearMen = [];
     clothingWomen=[];
+    sarees=[];
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
@@ -2059,8 +2061,7 @@ router.get('/flipkartFootwear', (req, res) => {
         }
         else {
             console.log(footwearMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2069,6 +2070,7 @@ router.get('/flipkartSports%20Shoes', (req, res) => {
 
     footwearMen = [];
     clothingWomen=[];
+    sarees=[];
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
@@ -2154,8 +2156,7 @@ router.get('/flipkartSports%20Shoes', (req, res) => {
         }
         else {
             console.log(sportShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2165,6 +2166,7 @@ router.get('/flipkartSports%20Shoes', (req, res) => {
 router.get('/flipkartClothing', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -2251,8 +2253,7 @@ router.get('/flipkartClothing', (req, res) => {
         }
         else {
             console.log(sportShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2271,6 +2272,7 @@ router.get('/flipkartCasual%20Shoes', (req, res) => {
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
+    sarees=[];
     runningShoesMen = [];
     sneakersMen = [];
     jeggTights= [];
@@ -2347,8 +2349,7 @@ router.get('/flipkartCasual%20Shoes', (req, res) => {
         }
         else {
             console.log(casualShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2360,6 +2361,7 @@ router.get('/flipkartFormal%20Shoes', (req, res) => {
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
+    sarees=[];
     skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
@@ -2443,8 +2445,7 @@ router.get('/flipkartFormal%20Shoes', (req, res) => {
         }
         else {
             console.log(formalShoesMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2454,6 +2455,7 @@ router.get('/flipkartSandals%20&%20Floaters', (req, res) => {
     footwearMen = [];
     clothingWomen=[];
     dressesWomen= [];
+    sarees=[];
     topwearWomen= [];
     jeansWomen= [];
     skirtsWomen= [];
@@ -2538,8 +2540,7 @@ router.get('/flipkartSandals%20&%20Floaters', (req, res) => {
         }
         else {
             console.log(sandalsMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2548,6 +2549,7 @@ router.get('/flipkartFlip-%20Flops', (req, res) => {
 
     footwearMen = [];
     clothingWomen=[];
+    sarees=[];
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
@@ -2633,8 +2635,7 @@ router.get('/flipkartFlip-%20Flops', (req, res) => {
         }
         else {
             console.log(flipflopsMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2642,6 +2643,7 @@ router.get('/flipkartFlip-%20Flops', (req, res) => {
 router.get('/flipkartLoafers', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -2728,8 +2730,7 @@ router.get('/flipkartLoafers', (req, res) => {
         }
         else {
             console.log(loafersMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2737,6 +2738,7 @@ router.get('/flipkartLoafers', (req, res) => {
 router.get('/flipkartBoots', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -2823,8 +2825,7 @@ router.get('/flipkartBoots', (req, res) => {
         }
         else {
             console.log(bootsMen.length, "ok");
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2833,6 +2834,7 @@ router.get('/flipkartBoots', (req, res) => {
 router.get('/flipkartRunning%20Shoes', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -2920,8 +2922,7 @@ router.get('/flipkartRunning%20Shoes', (req, res) => {
         }
         else {
             console.log(footwearMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -2933,6 +2934,7 @@ router.get('/flipkartSneakers', (req, res) => {
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
+    sarees=[];
     skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
@@ -3018,8 +3020,7 @@ router.get('/flipkartSneakers', (req, res) => {
         }
         else {
             console.log(sneakersMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3028,6 +3029,7 @@ router.get('/flipkartSneakers', (req, res) => {
 router.get('/flipkartTopwear', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -3117,8 +3119,7 @@ router.get('/flipkartTopwear', (req, res) => {
         }
         else {
             console.log(topWearMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3126,6 +3127,7 @@ router.get('/flipkartTopwear', (req, res) => {
 router.get('/flipkartT-Shirts', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -3213,8 +3215,7 @@ router.get('/flipkartT-Shirts', (req, res) => {
         }
         else {
             console.log(tShirts);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3222,6 +3223,7 @@ router.get('/flipkartT-Shirts', (req, res) => {
 router.get('/flipkartFormal%20Shirts', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -3310,8 +3312,7 @@ router.get('/flipkartFormal%20Shirts', (req, res) => {
         }
         else {
             console.log(formalShirtsMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3319,6 +3320,7 @@ router.get('/flipkartFormal%20Shirts', (req, res) => {
 router.get('/flipkartCasual%20Shirts', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -3408,8 +3410,7 @@ router.get('/flipkartCasual%20Shirts', (req, res) => {
         }
         else {
             console.log(casualShirtsMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3423,6 +3424,7 @@ router.get('/flipkartBottom%20wear', (req, res) => {
     jeansWomen= [];
     skirtsWomen= [];
     casualShoesMen = [];
+    sarees=[];
     formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
@@ -3506,8 +3508,7 @@ router.get('/flipkartBottom%20wear', (req, res) => {
         }
         else {
             console.log(bottomWear);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3519,6 +3520,7 @@ router.get('/flipkartJeans', (req, res) => {
     dressesWomen= [];
     topwearWomen= [];
     jeansWomen= [];
+    sarees=[];
     skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
@@ -3604,8 +3606,7 @@ router.get('/flipkartJeans', (req, res) => {
         }
         else {
             console.log(jeansMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3613,6 +3614,7 @@ router.get('/flipkartJeans', (req, res) => {
 router.get('/flipkartCasual%20Trousers', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -3702,8 +3704,7 @@ router.get('/flipkartCasual%20Trousers', (req, res) => {
         }
         else {
             console.log(casualTrousersMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3711,6 +3712,7 @@ router.get('/flipkartCasual%20Trousers', (req, res) => {
 router.get('/flipkartFormal%20Trousers', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -3798,8 +3800,7 @@ router.get('/flipkartFormal%20Trousers', (req, res) => {
         }
         else {
             console.log(formalTrousersMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });       }
     }
     f1();
 })
@@ -3807,6 +3808,7 @@ router.get('/flipkartFormal%20Trousers', (req, res) => {
 router.get('/flipkartTrack%20Pants', (req, res) => {
 
     footwearMen = [];
+    sarees=[];
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
@@ -3895,8 +3897,7 @@ router.get('/flipkartTrack%20Pants', (req, res) => {
         }
         else {
             console.log(trackPantsMen);
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen  ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
     }
     f1();
 })
@@ -3914,6 +3915,7 @@ router.get('/flipkart', (req, res) => {
     clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
+    sarees=[];
     jeansWomen= [];
     skirtsWomen= [];
     casualShoesMen = [];
@@ -3988,8 +3990,7 @@ router.get('/flipkart', (req, res) => {
         }
         else {
 
-            res.render("flipkart", { clothingMen,jeggTights,trousersCapris,skirts,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear ,clothingWomen,jeansWomen,dressesWomen,topwearWomen,shortsWomen,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
-        }
+            res.render("flipkart", { subCatWomenFin, clothingWomen, dressesWomen, topwearWomen, skirtsWomen, jeansWomen, jeggTights,trousersCapris,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear,camisolesSlips,swimBeachWomen,partyDresses,sportsWomen,winterWomen,sarees, majCatFin, shortsWomen, subCatMenFin, footwearMen, modelsFin, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen, clothingMen,topWearMen,tShirts,formalShirtsMen,casualShirtsMen,bottomWear,jeansMen,formalTrousersMen,casualTrousersMen,trackPantsMen });        }
 
 
     }
