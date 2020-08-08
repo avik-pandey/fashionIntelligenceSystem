@@ -3978,7 +3978,7 @@ router.get('/flipkart', (req, res) => {
         }
         else {
 
-            res.render("flipkart", { clothingMen ,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
+            res.render("flipkart", { clothingMen,jeggTights,trousersCapris,skirts,lingerieSets,lingerieSleepwear,brasWomen,panties,dressesGowns,shapewear ,clothingWomen,jeansWomen,dressesWomen,topwearWomen,shortsWomen,topWearMen ,tShirts ,formalShirtsMen ,casualShirtsMen ,bottomWear ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,subCatWomenFin, majCatFin, subCatMenFin, footwearMen, sportShoesMen, casualShoesMen, runningShoesMen, formalShoesMen, sandalsMen, bootsMen, flipflopsMen, loafersMen, sneakersMen });
         }
 
 
