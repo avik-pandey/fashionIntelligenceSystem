@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[40]:
 
 
 import selenium
 from selenium.webdriver import ActionChains
 
 
-# In[2]:
+# In[41]:
 
 
 from selenium import webdriver
@@ -30,7 +30,7 @@ import urllib
 import dns
 
 
-# In[3]:
+# In[42]:
 
 
 options = Options()
@@ -59,7 +59,7 @@ def patching_get(driver, url):
     return driver
 
 
-# In[4]:
+# In[43]:
 
 
 def login(driver,start_url = "https://in.pinterest.com/",email = "kbhardwaj085@gmail.com",password = "Avik@838"):
@@ -129,7 +129,7 @@ def login(driver,start_url = "https://in.pinterest.com/",email = "kbhardwaj085@g
         
 
 imgLinks = []
-def set_model(driver,model = "kendall jenner outfits",start_url = "https://in.pinterest.com/"):
+def set_model(driver,start_url = "https://in.pinterest.com/"):
     try:
         login(driver,email = "avikpandey1@gmail.com",password = "Avik@838")
     except Exception as e:
@@ -144,50 +144,59 @@ def set_model(driver,model = "kendall jenner outfits",start_url = "https://in.pi
     except Exception as e:
         print(e)
         raise(e)
-    try:
+    modelsArr = ['kendall jenner outfits','kylie jenner outfits']
+    for model in modelsArr:
         
-        search_box.send_keys(model)
-        time.sleep(1)
-        search_box.send_keys(Keys.ENTER)
-        time.sleep(1)
-#         search_box.send_keys(Keys.ENTER)
-        time.sleep(3)
-    except Exception as e: 
-        print(e)
-#         set_location(driver, location='bangalore', pincode = "560103", start_url = "https://www.bigbasket.com/")
-        raise(e)
-    myLength = len(WebDriverWait(driver, 20).until(EC.visibility_of_all_elements_located((By.TAG_NAME,"img"))))
-#             images = driver.find_elements_by_tag_name('img')
-    images = []
-    final = []
-    while True: 
-        driver.execute_script("window.scrollBy(0,1200)", "")
         try:
-            WebDriverWait(driver, 20).until(lambda driver: len(driver.find_elements_by_tag_name("img")) > myLength)
-            images = driver.find_elements_by_tag_name("img")
+            
+            search_box.send_keys(model)
+            time.sleep(1)
+            search_box.send_keys(Keys.ENTER)
+            time.sleep(1)
+#         search_box.send_keys(Keys.ENTER)
             time.sleep(3)
-            for el in images:
-                time.sleep(1)
-                link = el.get_attribute('src')
-                time.sleep(1)
-                link = el.get_attribute('src')
-                final.append(link)
+        except Exception as e: 
+            print(e)
+#         set_location(driver, location='bangalore', pincode = "560103", start_url = "https://www.bigbasket.com/")
+            raise(e)
+        myLength = len(WebDriverWait(driver, 20).until(EC.visibility_of_all_elements_located((By.TAG_NAME,"img"))))
+#             images = driver.find_elements_by_tag_name('img')
+        images = []
+        final = []
+        try:
+            time.sleep(1)
+            print('ppp')
+            temp = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.TAG_NAME, "input")))
+            temp.click()
+            temp.clear()
+        except Exception as e:
+            print(e)
+            raise(e)
+        while True: 
+            driver.execute_script("window.scrollBy(0,1200)", "")
+            try:
+                WebDriverWait(driver, 20).until(lambda driver: len(driver.find_elements_by_tag_name("img")) > myLength)
+                images = driver.find_elements_by_tag_name("img")
+                time.sleep(3)
+                for el in images:
+                    time.sleep(1)
+                    link = el.get_attribute('src')
+                    time.sleep(1)
+                    link = el.get_attribute('src')
+                    final.append(link)
                 
-            myLength = len(images)
-        except TimeoutException:
-            break
-    print(len(images))
-                
-#     images = driver.find_elements_by_tag_name('img')
-#     print(len(images))
-    cnt = 0
-    print(len(final))
-    for i in range(len(final)):
-        if i == 0:
-            continue
-        print(final[i])
-        print(i)
-        max_attemps = 10
+                myLength = len(images)
+            except TimeoutException:
+                break
+        print(len(images))
+        cnt = 0
+        print(len(final))
+        for i in range(len(final)):
+            if i == 0:
+                continue
+            print(final[i])
+            print(i)
+            max_attemps = 10
 #         ok=""
 #         while True:
 #             ok = images[i].get_attribute("src")
@@ -210,10 +219,10 @@ def set_model(driver,model = "kendall jenner outfits",start_url = "https://in.pi
 #             print(e)
 #             raise(e)
             
-        fin = {'model' : model
-            ,'imgUrl' : final[i]}    
-        print(next)
-        imgLinks.append(fin)
+            fin = {'model' : model
+             ,'imgUrl' : final[i]}    
+            print(next)
+            imgLinks.append(fin)
      
     driver.quit()
     return imgLinks
@@ -222,13 +231,14 @@ def set_model(driver,model = "kendall jenner outfits",start_url = "https://in.pi
     
 
 
-# In[5]:
+# In[44]:
 
 
-set_model(driver,model = "kendall jenner outfits")
+
+set_model(driver)
 
 
-# In[6]:
+# In[45]:
 
 
 client = MongoClient('mongodb+srv://user:'+urllib.parse.quote('flipkart')+'@cluster0.pe7lw.mongodb.net/intelFashion?retryWrites=true&w=majority')

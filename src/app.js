@@ -10,6 +10,7 @@ const myntraRoute = require('./routers/myntra-route.js')
 const flipkartRoute = require('./routers/flipkart-route.js');
 const vogueRoute = require('./routers/vogue-route.js');
 const pinterestRoute = require('./routers/pinterest-route.js')
+const spawn = require('child_process').spawn;
 
 const app = express()
 const port = process.env.PORT || 3000; 
@@ -27,6 +28,27 @@ app.use(pinterestRoute);
 app.get('', (req, res) => {
     res.render('index');
 })
+
+
+function runPython(filename ) {
+    
+    proc = spawn('python', [filename]);
+    proc.stdout.on('data', function(data) { console.log("stdout: " + data); });
+    proc.stderr.on('data', function(data) { console.log("stderr: " + data); });
+    proc.on('exit', function(code) { console.log("exit: " + code); });
+}
+
+// var filenames = ['../pyScripts/flipkart.py', '../pyScripts/myntra.py', '../pyScripts/vogue_crawler.py'];
+//   filenames.forEach(function(filename) {  runPython(filename) });
+
+var n = 70000;
+
+setInterval(function(){
+
+  var filenames = ['../pyScripts/flipkart.py', '../pyScripts/myntra.py', '../pyScripts/vogue_crawler.py','../pyScripts/pinterest.py'];
+  filenames.forEach(function(filename) {  runPython(filename) });
+    
+}, n * 1000);
  
 console.log('jdnakj')
 app.listen(port, () => {

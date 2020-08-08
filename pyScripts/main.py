@@ -12,7 +12,7 @@ import defs
 # In[5]:
 
 
-processes = ('myntra.py', 'vogue_crawler.py','flipkart.py') 
+processes = ('myntra.py', 'vogue_crawler.py','flipkart.py','pinterest.py') 
 # def run_process(process):                                                             
 #     os.system('python {}'.format(process)) 
 
@@ -23,7 +23,7 @@ processes = ('myntra.py', 'vogue_crawler.py','flipkart.py')
 
 
 if __name__ == '__main__':    
-    pool = Pool(processes=3)                                                        
+    pool = Pool(processes=4)                                                        
     pool.map(defs.run_process, processes) 
 
 
