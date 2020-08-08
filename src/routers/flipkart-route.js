@@ -47,6 +47,8 @@ router.get('/flipkartShorts', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -131,10 +133,10 @@ router.get('/flipkartTopwear', (req, res) => {
 
     footwearMen = [];
     clothingWomen=[];
-    skirtsWomen=[];
-    shortsWomen= [];
     dressesWomen= [];
+    topwearWomen= [];
     jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -143,6 +145,8 @@ router.get('/flipkartTopwear', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -228,11 +232,11 @@ var clothingWomen= [];
 router.get('/flipkartClothing', (req, res) => {
 
     footwearMen = [];
+    clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
-    shortsWomen= [];
-    skirtsWomen= [];
     jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -241,6 +245,8 @@ router.get('/flipkartClothing', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -324,11 +330,11 @@ var jeansWomen= [];
 router.get('/flipkartJeans', (req, res) => {
 
     footwearMen = [];
-    clothingWomen= [];
-    skirtsWomen=[];
-    shortsWomen=[];
+    clothingWomen=[];
     dressesWomen= [];
     topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -337,6 +343,8 @@ router.get('/flipkartJeans', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -419,11 +427,11 @@ var dressesWomen= [];
 router.get('/flipkartDresses', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -432,6 +440,8 @@ router.get('/flipkartDresses', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -610,13 +620,11 @@ var trousersCapris= [];
 router.get('/flipkartTrousers%20&%20Capris', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    dressesWomen=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -625,6 +633,8 @@ router.get('/flipkartTrousers%20&%20Capris', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -708,18 +718,11 @@ var skirts= [];
 router.get('/flipkartSkirts', (req, res) => {
 
     footwearMen = [];
-    brasWomen= [];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -728,6 +731,8 @@ router.get('/flipkartSkirts', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -810,14 +815,11 @@ var lingerieSleepwear= [];
 router.get('/flipkartLingerie%20&%20Sleepwear', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -826,7 +828,8 @@ router.get('/flipkartLingerie%20&%20Sleepwear', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -908,15 +911,11 @@ var brasWomen=[];
 router.get('/flipkartBras', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -925,7 +924,8 @@ router.get('/flipkartBras', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -1007,16 +1007,11 @@ var panties= [];
 router.get('/flipkartPanties', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1025,7 +1020,8 @@ router.get('/flipkartPanties', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -1107,17 +1103,11 @@ var lingerieSets= [];
 router.get('/flipkartLingerie%20Sets', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    panties=[];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1126,6 +1116,8 @@ router.get('/flipkartLingerie%20Sets', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -1208,18 +1200,11 @@ var dressesGowns= [];
 router.get('/flipkartNight%20Sets%20Dresses%20&%20Nighties%20Gowns', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    panties=[];
-    lingerieSets=[];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1228,7 +1213,8 @@ router.get('/flipkartNight%20Sets%20Dresses%20&%20Nighties%20Gowns', (req, res) 
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -1310,19 +1296,11 @@ var shapewear= [];
 router.get('/flipkartShapewear', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1331,6 +1309,8 @@ router.get('/flipkartShapewear', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -1413,20 +1393,11 @@ var camisolesSlips= [];
 router.get('/flipkartCamisoles%20&%20Slips', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    shapewear= [];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1435,7 +1406,8 @@ router.get('/flipkartCamisoles%20&%20Slips', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -1517,21 +1489,11 @@ var swimBeachWomen= [];
 router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    shapewear= [];
-    camisolesSlips=[];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1540,6 +1502,8 @@ router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -1621,22 +1585,11 @@ var partyDresses= [];
 router.get('/flipkartParty%20Dresses', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    swimBeachWomen=[];
-    shapewear= [];
-    camisolesSlips=[];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1645,6 +1598,8 @@ router.get('/flipkartParty%20Dresses', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -1727,23 +1682,11 @@ var sportsWomen= [];
 router.get('/flipkartSports%20Wear', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    partyDresses= [];
-    swimBeachWomen=[];
-    shapewear= [];
-    camisolesSlips=[];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1752,7 +1695,8 @@ router.get('/flipkartSports%20Wear', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -1833,24 +1777,11 @@ var winterWomen= [];
 router.get('/flipkartWinter%20Wear', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    sportsWomen=[];
-    partyDresses= [];
-    swimBeachWomen=[];
-    shapewear= [];
-    camisolesSlips=[];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1859,6 +1790,8 @@ router.get('/flipkartWinter%20Wear', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -1941,24 +1874,11 @@ var sarees= [];
 router.get('/flipkartSarees', (req, res) => {
 
     footwearMen = [];
-    skirtsWomen=[];
-    brasWomen= [];
-    sportsWomen=[];
-    partyDresses= [];
-    swimBeachWomen=[];
-    shapewear= [];
-    camisolesSlips=[];
-    panties=[];
-    lingerieSets=[];
-    dressesGowns= [];
-    lingerieSleepwear= [];
-    dressesWomen=[];
-    trousersCapris=[];
-    jeggTights= [];
-    clothingWomen= [];
-    topwearWomen=[];
-    shortsWomen=[];
-    jeansWomen=[];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -1967,7 +1887,8 @@ router.get('/flipkartSarees', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2051,7 +1972,12 @@ router.get('/flipkartSarees', (req, res) => {
 
 router.get('/flipkartFootwear', (req, res) => {
 
-    sportShoesMen = [];
+    footwearMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -2060,9 +1986,8 @@ router.get('/flipkartFootwear', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    clothingMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2143,7 +2068,11 @@ router.get('/flipkartFootwear', (req, res) => {
 router.get('/flipkartSports%20Shoes', (req, res) => {
 
     footwearMen = [];
-
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -2152,9 +2081,8 @@ router.get('/flipkartSports%20Shoes', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    clothingMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2237,7 +2165,11 @@ router.get('/flipkartSports%20Shoes', (req, res) => {
 router.get('/flipkartClothing', (req, res) => {
 
     footwearMen = [];
-    
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
     sandalsMen = [];
@@ -2246,9 +2178,8 @@ router.get('/flipkartClothing', (req, res) => {
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    clothingMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2329,18 +2260,21 @@ router.get('/flipkartClothing', (req, res) => {
 router.get('/flipkartCasual%20Shoes', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
-
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
+    casualShoesMen = [];
     formalShoesMen = [];
-    clothingMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2422,17 +2356,21 @@ router.get('/flipkartCasual%20Shoes', (req, res) => {
 router.get('/flipkartFormal%20Shoes', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    clothingMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -2514,16 +2452,21 @@ router.get('/flipkartFormal%20Shoes', (req, res) => {
 router.get('/flipkartSandals%20&%20Floaters', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
     formalShoesMen = [];
+    sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2604,16 +2547,21 @@ router.get('/flipkartSandals%20&%20Floaters', (req, res) => {
 router.get('/flipkartFlip-%20Flops', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
-    sandalsMen = [];
     formalShoesMen = [];
+    sandalsMen = [];
+    flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [], clothingMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2694,17 +2642,21 @@ router.get('/flipkartFlip-%20Flops', (req, res) => {
 router.get('/flipkartLoafers', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
-    formalShoesMen = [];
+    loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    clothingMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2785,16 +2737,21 @@ router.get('/flipkartLoafers', (req, res) => {
 router.get('/flipkartBoots', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
-    formalShoesMen = [];
+    bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
     async function f1(req, rep) {
 
         let temp = await flipkart.find({}, function (err, collection) {
@@ -2876,16 +2833,21 @@ router.get('/flipkartBoots', (req, res) => {
 router.get('/flipkartRunning%20Shoes', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
-    formalShoesMen = [];
+    bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -2967,16 +2929,21 @@ router.get('/flipkartRunning%20Shoes', (req, res) => {
 router.get('/flipkartSneakers', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
 
@@ -3061,16 +3028,21 @@ router.get('/flipkartSneakers', (req, res) => {
 router.get('/flipkartTopwear', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingMen = [];
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
 
@@ -3154,18 +3126,21 @@ router.get('/flipkartTopwear', (req, res) => {
 router.get('/flipkartT-Shirts', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
-
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -3247,17 +3222,21 @@ router.get('/flipkartT-Shirts', (req, res) => {
 router.get('/flipkartFormal%20Shirts', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
     async function f1(req, rep) {
@@ -3340,16 +3319,21 @@ router.get('/flipkartFormal%20Shirts', (req, res) => {
 router.get('/flipkartCasual%20Shirts', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
 
@@ -3433,16 +3417,21 @@ router.get('/flipkartCasual%20Shirts', (req, res) => {
 router.get('/flipkartBottom%20wear', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
 
@@ -3526,16 +3515,21 @@ router.get('/flipkartBottom%20wear', (req, res) => {
 router.get('/flipkartJeans', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
 
@@ -3619,16 +3613,21 @@ router.get('/flipkartJeans', (req, res) => {
 router.get('/flipkartCasual%20Trousers', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
 
@@ -3712,18 +3711,21 @@ router.get('/flipkartCasual%20Trousers', (req, res) => {
 router.get('/flipkartFormal%20Trousers', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
-
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
@@ -3805,17 +3807,21 @@ router.get('/flipkartFormal%20Trousers', (req, res) => {
 router.get('/flipkartTrack%20Pants', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [];
-
-
+    sneakersMen = [];
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
 
     async function f1(req, rep) {
@@ -3905,17 +3911,21 @@ router.get('/flipkartTrack%20Pants', (req, res) => {
 router.get('/flipkart', (req, res) => {
 
     footwearMen = [];
-    sportShoesMen = [];
+    clothingWomen=[];
+    dressesWomen= [];
+    topwearWomen= [];
+    jeansWomen= [];
+    skirtsWomen= [];
     casualShoesMen = [];
+    formalShoesMen = [];
     sandalsMen = [];
     flipflopsMen = [];
     loafersMen = [];
     bootsMen = [];
     runningShoesMen = [];
     sneakersMen = [];
-    formalShoesMen = [];
-    topWearMen = [],tShirts = [],formalShirtsMen = [],casualShirtsMen = [],bottomWear = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],shortsMen = [],cargosMen = [],threeFourthsMen = [],suitsMen = [],tiesMen = [],fabricsMen = [],winterWearMen = [],sweatshirtsMen = [],jacketsMen = [],sweaterMen = [],trackMen = [],ethnicMen = [],kurtaMen = [],ethnicSuitsMen = [],sherwanis = [],ethnicPyjamaMen = [],dhotiMen = [],lungiMen = [],innerwearMen = [],briefsMen = [],vestsMen = [],boxersMen = [],pyjamasMen = [],thermalsMen = [],nightSuitsMen = [],raincoatsMen = [],fastrackMen = [],CasioMen = [],titanMen = [],fossilMen = [],sonataMen = [],backpacksMen = [],walletsMen = [],beltsMen = [],sunglassesMen = [],luggageMen = [],framesMen = [],jewlleryMen = [],adidasMen = [],reebokMen = [],skechersMen = [],nikeMen = [];
-
+    jeggTights= [];
+    trousersCapris= [], lingerieSets= [], lingerieSleepwear= [], brasWomen=[], panties=[],dressesGowns=[], shapewear=[], camisolesSlips=[], swimBeachWomen=[],partyDresses=[],sportsWomen=[],winterWomen=[],clothingMen=[],topWearMen=[],tShirts=[],formalShirtsMen=[],casualShirtsMen=[],bottomWear=[], jeansMen=[],casualTrousersMen=[],formalTrousersMen=[],trackPantsMen=[],shortsWomen=[];
 
     async function f1(req, rep) {
 
