@@ -24,7 +24,7 @@ var vogue = mongoose.Schema({
 
 }, { collection: 'magazine' });
 
-var vogue = mongoose.model("magazine", magazine);
+var vogue = mongoose.model("vogue", vogue);
 
 
 const app = express()
