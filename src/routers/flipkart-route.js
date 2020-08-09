@@ -1016,7 +1016,7 @@ router.get('/flipkartClothing', (req, res) => {
     f1();
 })
 
-router.get('/flipkartTopwear', (req, res) => {
+router.get('/flipkartTop%20wear', (req, res) => {
 
     
     winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
@@ -1352,7 +1352,7 @@ router.get('/flipkartCasual%20Shirts', (req, res) => {
     f1();
 })
 
-router.get('/flipkartBottomWear', (req, res) => {
+router.get('/flipkartBottom%20wear', (req, res) => {
 
     
     winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
@@ -1688,7 +1688,7 @@ router.get('/flipkartFormal%20Trousers', (req, res) => {
     f1();
 })
 
-router.get('/flipkartTrack%20Pants', (req, res) => {
+router.get('/flipkartTrack%20pants', (req, res) => {
 
     
     winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
@@ -3117,7 +3117,7 @@ router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
     f1();
 })
 
-router.get('/flipkartParty&20Dresses', (req, res) => {
+router.get('/flipkartParty%20Dresses', (req, res) => {
 
     
   winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],sportswearWomen = [],sareesWomen = [];
