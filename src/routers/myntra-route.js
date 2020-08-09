@@ -13,7 +13,7 @@ router.get('/myntra', (req, res) => {
 
     async function f1(req, rep) {
 
-
+    
         let temp = await myntra.find({}, function (err, collection) {
             if (err) console.log(err);
 
@@ -1460,11 +1460,11 @@ router.get('/myntraBottomwear', (req, res) => {
 
         let temp3 = await myntra.find({subCategory:'Bottomwear'},function(err,collection){
            if(err)console.log(err)
-           else BottomwearMen = collection;
+           else bottomwearMen = collection;
         })
         if(temp3.err)console.log(err)
         else {
-            console.log(BottomwearMen);
+            console.log(bottomwearMen);
             res.render("myntra", { majCatFin,subCatMenFin ,subCatWomenFin, topwearMen ,tShirtsMen ,casualShirtsMen ,formalShirtsMen ,sweatShirtsMen ,sweatersMen ,jacketsMen ,blazersMen,suitsMen ,rainJacketsMen ,indianWearMen ,kurtasMen ,sherwanisMen ,nehruJacketsMen ,dhotisMen ,bottomwearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,shortsMen ,indianWearWomen ,kurtasWomen ,kurtisWomen ,ethnicWomen ,leggingsWomen ,skirtsWomen ,sareesWomen ,dressWomen ,lehengaWomen ,dupattasWomen ,jacketsWomen ,beltsWomen ,watchesWomen ,westernWomen ,jumpsuitsWomen ,topsWomen ,jeansWomen ,trousersWomen ,shirtsWomen ,shrugsWomen  });
 
         }
