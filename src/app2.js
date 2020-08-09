@@ -19,7 +19,7 @@ const fs = require('fs')
 const mongoose = require('mongoose');
 
 var vogue = mongoose.Schema({
-    imgUrl: String,
+    img_link: String,
     category: String,
 
 }, { collection: 'magazine' });
@@ -152,7 +152,7 @@ app.get('/vogueIndia',(req,res) =>{
       categoriesFin = Array.from(new Set(categories));
   
     })
-    if (temp.err) {
+    if (temp2.err) {
       console.log(err)
   }
   else {
