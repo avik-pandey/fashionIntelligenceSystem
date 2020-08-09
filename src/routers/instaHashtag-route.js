@@ -7,7 +7,7 @@ router.get('/vogueIndia', (req, res) => {
 })
 var vogue2020 = [],elle2020 = [],fashion = [];
 router.get('/instaHashtags', (req, res) => {
-    res.render('instaHashtags',{vogue2020});
+    res.render('instaHashtags',{vogue2020,elle2020,fashion});
 })
 
 router.get('/instaHashtagsVogue2020', (req, res) => {
@@ -23,7 +23,7 @@ router.get('/instaHashtagsVogue2020', (req, res) => {
         if(temp.err)console.log(err);
         else{
             console.log(vogue2020)
-            res.render('instaHashtags',{vogue2020});
+            res.render('instaHashtags',{vogue2020,elle2020,fashion});
         }
     }
 
