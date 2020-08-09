@@ -2867,7 +2867,7 @@ router.get('/myntraBelts,%20Scarves%20&%20More', (req, res) => {
     f1();
 })
 
-router.get('/myntraWatches%20&%20Wearable', (req, res) => {
+router.get('/myntraWatches%20&%20Wearables', (req, res) => {
 
     majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
