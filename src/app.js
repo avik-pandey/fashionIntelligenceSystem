@@ -8,7 +8,7 @@ var pinterest = require('./models/pintrest.js')
 var insta = require('./models/insta.js')
 const myntraRoute = require('./routers/myntra-route.js')
 const flipkartRoute = require('./routers/flipkart-route.js');
-const vogueRoute = require('./routers/vogue-route.js');
+const instaHashtagRoute = require('./routers/instaHashtag-route.js');
 const pinterestRoute = require('./routers/pinterest-route.js')
 const spawn = require('child_process').spawn;
 
@@ -22,7 +22,7 @@ app.set('view engine', 'ejs')
 app.use(express.static(filepath))
 app.use(myntraRoute);
 app.use(flipkartRoute);
-app.use(vogueRoute);
+app.use(instaHashtagRoute);
 app.use(pinterestRoute);
 
 app.get('', (req, res) => {
