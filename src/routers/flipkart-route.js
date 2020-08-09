@@ -2265,7 +2265,7 @@ router.get('/flipkartShorts', (req, res) => {
             modelsFin = [];
         })
         if (temp3.err) {
-            console.log(err)
+            console.log(err) 
         }
         else {
             console.log(shortsWomen);
