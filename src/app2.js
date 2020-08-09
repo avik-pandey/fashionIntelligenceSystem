@@ -18,13 +18,13 @@ const fs = require('fs')
 
 const mongoose = require('mongoose');
 
-var vogue = mongoose.Schema({
+var magazine = mongoose.Schema({
     img_link: String,
     category: String,
 
 }, { collection: 'magazine' });
 
-var vogue = mongoose.model("vogue", vogue);
+var magazine = mongoose.model("magazine", magazine);
 
 
 const app = express()
@@ -121,14 +121,14 @@ var vogueData = [],categorizeData = [],categorizeFinData = [],categories = [],ca
 app.get('/vogueIndia',(req,res) =>{
 
   async function f1(req,rep){
-    let temp = await vogue.find({}, function (err, collection) {
+    let temp = await magazine.find({}, function (err, collection) {
          if(err)console.log(err)
          vogueData = collection;
          
          for(var i = 0;i<vogueData.length;i++){
            var img = vogueData[i].img_link;
            var ans = categorize(img);
-           vogue.updateOne({img_link : img},{$set:{category : ans}},function(req,rep){
+           magazine.updateOne({img_link : img},{$set:{category : ans}},function(req,rep){
                console.log(rep);
            })
          }
@@ -141,7 +141,7 @@ app.get('/vogueIndia',(req,res) =>{
       console.log(vogueData)
     }
   
-    let temp2 = await vogue.find({}, function(err,collection){
+    let temp2 = await magazine.find({}, function(err,collection){
         if(err)console.log(err)
         categorizeFinData = collection;
         for (var i = 0; i < categorizeFinData.length; i++) {
