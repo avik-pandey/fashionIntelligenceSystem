@@ -85,7 +85,7 @@ router.get('/myntra', (req, res) => {
 
 router.get('/myntraTopwear', (req, res) => {
 
-    topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -172,7 +172,7 @@ router.get('/myntraTopwear', (req, res) => {
 
 router.get('/myntraT-Shirts', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -259,7 +259,7 @@ router.get('/myntraT-Shirts', (req, res) => {
 
 router.get('/myntraCasual%20Shirts', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -346,7 +346,7 @@ router.get('/myntraCasual%20Shirts', (req, res) => {
 
 router.get('/myntraFormal%20Shirts', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -433,7 +433,7 @@ router.get('/myntraFormal%20Shirts', (req, res) => {
 
 router.get('/myntraSweatshirts', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -520,7 +520,7 @@ router.get('/myntraSweatshirts', (req, res) => {
 
 router.get('/myntraSweaters', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -607,7 +607,7 @@ router.get('/myntraSweaters', (req, res) => {
 
 router.get('/myntraJackets', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -694,7 +694,7 @@ router.get('/myntraJackets', (req, res) => {
 
 router.get('/myntraBlazers%20&%20Coats', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -781,7 +781,7 @@ router.get('/myntraBlazers%20&%20Coats', (req, res) => {
 
 router.get('/myntraSuits', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -868,7 +868,7 @@ router.get('/myntraSuits', (req, res) => {
 
 router.get('/myntraRain%20Jackets', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -955,7 +955,7 @@ router.get('/myntraRain%20Jackets', (req, res) => {
 
 router.get('/myntraIndian%20&%20Festive%20Wear', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1042,7 +1042,7 @@ router.get('/myntraIndian%20&%20Festive%20Wear', (req, res) => {
 
 router.get('/myntraKurtas%20&%20Kurta%20Sets', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1129,7 +1129,7 @@ router.get('/myntraKurtas%20&%20Kurta%20Sets', (req, res) => {
 
 router.get('/myntraSherwanis', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1216,7 +1216,7 @@ router.get('/myntraSherwanis', (req, res) => {
 
 router.get('/myntraNehru%20Jackets', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1303,7 +1303,7 @@ router.get('/myntraNehru%20Jackets', (req, res) => {
 
 router.get('/myntraDhotis', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1390,7 +1390,7 @@ router.get('/myntraDhotis', (req, res) => {
 
 router.get('/myntraBottomwear', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1477,7 +1477,7 @@ router.get('/myntraBottomwear', (req, res) => {
 
 router.get('/myntraJeans', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1564,7 +1564,7 @@ router.get('/myntraJeans', (req, res) => {
 
 router.get('/myntraCasual%20Trousers', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1651,7 +1651,7 @@ router.get('/myntraCasual%20Trousers', (req, res) => {
 
 router.get('/myntraFormal%20Trousers', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1738,7 +1738,7 @@ router.get('/myntraFormal%20Trousers', (req, res) => {
 
 router.get('/myntraShorts', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1825,7 +1825,7 @@ router.get('/myntraShorts', (req, res) => {
 
 router.get('/myntraIndian%20&%20Fusion%20Wear', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1912,7 +1912,7 @@ router.get('/myntraIndian%20&%20Fusion%20Wear', (req, res) => {
 
 router.get('/myntraKurtas%20&%20Suits', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -1999,7 +1999,7 @@ router.get('/myntraKurtas%20&%20Suits', (req, res) => {
 
 router.get('/myntraKurtis,%20Tunics%20&%20Tops', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2086,7 +2086,7 @@ router.get('/myntraKurtis,%20Tunics%20&%20Tops', (req, res) => {
 
 router.get('/myntraEthnic%20Dresses', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2173,7 +2173,7 @@ router.get('/myntraEthnic%20Dresses', (req, res) => {
 
 router.get('/myntraLeggings,%20Salwars%20&%20Churidars', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2260,7 +2260,7 @@ router.get('/myntraLeggings,%20Salwars%20&%20Churidars', (req, res) => {
 
 router.get('/myntraSkirts%20&%20Palazzos', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2347,7 +2347,7 @@ router.get('/myntraSkirts%20&%20Palazzos', (req, res) => {
 
 router.get('/myntraSarees%20&%20Blouses', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2434,7 +2434,7 @@ router.get('/myntraSarees%20&%20Blouses', (req, res) => {
 
 router.get('/myntraDress%20Materials', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2521,7 +2521,7 @@ router.get('/myntraDress%20Materials', (req, res) => {
 
 router.get('/myntraLehenga%20Cholis', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2608,7 +2608,7 @@ router.get('/myntraLehenga%20Cholis', (req, res) => {
 
 router.get('/myntraDupattas%20&%20Shawls', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2695,7 +2695,7 @@ router.get('/myntraDupattas%20&%20Shawls', (req, res) => {
 
 router.get('/myntraJackets%20&%20Waistcoats', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2782,7 +2782,7 @@ router.get('/myntraJackets%20&%20Waistcoats', (req, res) => {
 
 router.get('/myntraBelts,%20Scarves%20&%20More', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2869,7 +2869,7 @@ router.get('/myntraBelts,%20Scarves%20&%20More', (req, res) => {
 
 router.get('/myntraWatches%20&%20Wearable', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -2956,7 +2956,7 @@ router.get('/myntraWatches%20&%20Wearable', (req, res) => {
 
 router.get('/myntraWestern%20Wear', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -3043,7 +3043,7 @@ router.get('/myntraWestern%20Wear', (req, res) => {
 
 router.get('/myntraDresses%20&%20Jumpsuits', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -3130,7 +3130,7 @@ router.get('/myntraDresses%20&%20Jumpsuits', (req, res) => {
 
 router.get('/myntraTops,%20T-Shirts%20&%20Shirts', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -3217,7 +3217,7 @@ router.get('/myntraTops,%20T-Shirts%20&%20Shirts', (req, res) => {
 
 router.get('/myntraJeans%20&%20Jeggings', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -3304,7 +3304,7 @@ router.get('/myntraJeans%20&%20Jeggings', (req, res) => {
 
 router.get('/myntraTrousers%20&%20Capris', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],shirtsWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -3391,7 +3391,7 @@ router.get('/myntraTrousers%20&%20Capris', (req, res) => {
 
 router.get('/myntraShorts%20&%20Skirts', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shrugsWomen = []
 
     async function f1(req, rep) {
 
@@ -3478,7 +3478,7 @@ router.get('/myntraShorts%20&%20Skirts', (req, res) => {
 
 router.get('/myntraShrugs', (req, res) => {
 
-    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [],shrugsWomen = []
+    majCat = [],majCatFin = [],subCatMen = [],subCatWomen = [],subCatMenFin = [],subCatWomenFin=[], topwearMen = [],tShirtsMen = [],casualShirtsMen = [],formalShirtsMen = [],sweatShirtsMen = [],sweatersMen = [],jacketsMen = [],blazersMen = [],suitsMen = [],rainJacketsMen = [],indianWearMen = [],kurtasMen = [],sherwanisMen = [],nehruJacketsMen = [],dhotisMen = [],bottomwearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],shortsMen = [],indianWearWomen = [],kurtasWomen = [],kurtisWomen = [],ethnicWomen = [],leggingsWomen = [],skirtsWomen = [],sareesWomen = [],dressWomen = [],lehengaWomen = [],dupattasWomen = [],jacketsWomen = [],beltsWomen = [],watchesWomen = [],westernWomen = [],jumpsuitsWomen = [],topsWomen = [],jeansWomen = [],trousersWomen = [],shirtsWomen = [];
 
     async function f1(req, rep) {
 
