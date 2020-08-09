@@ -213,29 +213,27 @@
           <h1 class="h3 mb-2 text-gray-800">Hashtags</h1>
 
           <div class="row">
-            <div class="col-3">
+            <div class="col-sm-4">
               <button type="button" class="btn-sm btn-danger"><a href="/instaHashtagsVogue2020">#vogue2020</a>
                 </button>
             </div>
 
-            <div class="col-3">
-              <button type="button" class="btn-sm btn-danger">#fashion</button>
+            <div class="col-sm-4">
+              <button type="button" class="btn-sm btn-danger"><a href="/instaHashtagsElle2020">#elle2020</a></button>
             </div>
 
-            <div class="col-3">
-              <button type="button" class="btn-sm btn-danger">#elle2020</button>
+            <div class="col-sm-4">
+              <button type="button" class="btn-sm btn-danger"><a href="/instaHashtagsFashion">#fashion</a></button>
             </div>
 
-            <div class="col-3">
-              <button type="button" class="btn-sm btn-danger">#vogueLondon</button>
-            </div>
+            
 
           </div>
 
           <div class="container">
             <div class="row" style = "margin-top: 40px;">
               <% if(vogue2020.length  > 0){%>
-                <% for(var k = 0;k<vogue2020.length;k++){%>
+                <% for(var k = 0;k<20;k++){%>
                 <div class="col-sm-4 col-12" style = "margin-top: 10px;">
                   <div class="card" style="width: 14rem;">
                     <img class="card-img-top" src="<%=vogue2020[k].imgUrl%>" style="height: 140px;" alt="Card image cap">
@@ -246,6 +244,33 @@
                 </div>
                 <%}%>
                 <%}%>
+
+                <% if(elle2020.length  > 0){%>
+                  <% for(var k = 0;k<20;k++){%>
+                  <div class="col-sm-4 col-12" style = "margin-top: 10px;">
+                    <div class="card" style="width: 14rem;">
+                      <img class="card-img-top" src="<%=elle2020[k].imgUrl%>" style="height: 140px;" alt="Card image cap">
+                      <div class="card-body">
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <%}%>
+                  <%}%>
+
+
+                  <% if(fashion.length  > 0){%>
+                    <% for(var k = 0;k<20;k++){%>
+                    <div class="col-sm-4 col-12" style = "margin-top: 10px;">
+                      <div class="card" style="width: 14rem;">
+                        <img class="card-img-top" src="<%=fashion[k].imgUrl%>" style="height: 140px;" alt="Card image cap">
+                        <div class="card-body">
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <%}%>
+                    <%}%>
               
               
             </div>
