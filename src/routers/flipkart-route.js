@@ -94,7 +94,7 @@ router.get('/flipkart', (req, res) => {
 router.get('/flipkartFootwear', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -178,7 +178,7 @@ router.get('/flipkartFootwear', (req, res) => {
 router.get('/flipkartSports%20Shoes', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -263,7 +263,7 @@ router.get('/flipkartSports%20Shoes', (req, res) => {
 router.get('/flipkartCasual%20Shoes', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -347,7 +347,7 @@ router.get('/flipkartCasual%20Shoes', (req, res) => {
 router.get('/flipkartFormal%20Shoes', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -431,7 +431,7 @@ router.get('/flipkartFormal%20Shoes', (req, res) => {
 router.get('/flipkartSandals%20&%20FLoaters', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -515,7 +515,7 @@ router.get('/flipkartSandals%20&%20FLoaters', (req, res) => {
 router.get('/flipkartFlip-Flops', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -599,7 +599,7 @@ router.get('/flipkartFlip-Flops', (req, res) => {
 router.get('/flipkartLoafers', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -683,7 +683,7 @@ router.get('/flipkartLoafers', (req, res) => {
 router.get('/flipkartBoots', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -767,7 +767,7 @@ router.get('/flipkartBoots', (req, res) => {
 router.get('/flipkartRunning%20Shoes', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -851,7 +851,7 @@ router.get('/flipkartRunning%20Shoes', (req, res) => {
 router.get('/flipkartSneakers', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -935,7 +935,7 @@ router.get('/flipkartSneakers', (req, res) => {
 router.get('/flipkartClothing', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1019,7 +1019,7 @@ router.get('/flipkartClothing', (req, res) => {
 router.get('/flipkartTopwear', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1103,7 +1103,7 @@ router.get('/flipkartTopwear', (req, res) => {
 router.get('/flipkartT-Shirts', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1187,7 +1187,7 @@ router.get('/flipkartT-Shirts', (req, res) => {
 router.get('/flipkartFormal%20Shirts', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1271,7 +1271,7 @@ router.get('/flipkartFormal%20Shirts', (req, res) => {
 router.get('/flipkartCasual%20Shirts', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1355,7 +1355,7 @@ router.get('/flipkartCasual%20Shirts', (req, res) => {
 router.get('/flipkartBottomWear', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1439,7 +1439,7 @@ router.get('/flipkartBottomWear', (req, res) => {
 router.get('/flipkartJeans', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1523,7 +1523,7 @@ router.get('/flipkartJeans', (req, res) => {
 router.get('/flipkartCasual%20Trousers', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1607,7 +1607,7 @@ router.get('/flipkartCasual%20Trousers', (req, res) => {
 router.get('/flipkartFormal%20Trousers', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1691,7 +1691,7 @@ router.get('/flipkartFormal%20Trousers', (req, res) => {
 router.get('/flipkartTrack%20Pants', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1775,7 +1775,7 @@ router.get('/flipkartTrack%20Pants', (req, res) => {
 router.get('/flipkartClothing', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1859,7 +1859,7 @@ router.get('/flipkartClothing', (req, res) => {
 router.get('/flipkartTopwear', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -1943,7 +1943,7 @@ router.get('/flipkartTopwear', (req, res) => {
 router.get('/flipkartDresses', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2027,7 +2027,7 @@ router.get('/flipkartDresses', (req, res) => {
 router.get('/flipkartJeans', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2111,7 +2111,7 @@ router.get('/flipkartJeans', (req, res) => {
 router.get('/flipkartSkirts', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2195,7 +2195,7 @@ router.get('/flipkartSkirts', (req, res) => {
 router.get('/flipkartShorts', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2279,7 +2279,7 @@ router.get('/flipkartShorts', (req, res) => {
 router.get('/flipkartJeggings%20&%20Tights', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2363,7 +2363,7 @@ router.get('/flipkartJeggings%20&%20Tights', (req, res) => {
 router.get('/flipkartTrousers%20&%20Capris', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2447,7 +2447,7 @@ router.get('/flipkartTrousers%20&%20Capris', (req, res) => {
 router.get('/flipkartLingerie%20&%20Sleepwear', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2531,7 +2531,7 @@ router.get('/flipkartLingerie%20&%20Sleepwear', (req, res) => {
 router.get('/flipkartBras', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2615,7 +2615,7 @@ router.get('/flipkartBras', (req, res) => {
 router.get('/flipkartPanties', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2700,7 +2700,7 @@ router.get('/flipkartPanties', (req, res) => {
 router.get('/flipkartLingerie%20Sets', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2784,7 +2784,7 @@ router.get('/flipkartLingerie%20Sets', (req, res) => {
 router.get('/flipkartNight%20Dresses%20&%20Nighties', (req, res) => {
 
     
-  winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+  winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2868,7 +2868,7 @@ router.get('/flipkartNight%20Dresses%20&%20Nighties', (req, res) => {
 router.get('/flipkartShapewear', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -2952,7 +2952,7 @@ router.get('/flipkartShapewear', (req, res) => {
 router.get('/flipkartCamisoles%20&%20Slips', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -3036,7 +3036,7 @@ router.get('/flipkartCamisoles%20&%20Slips', (req, res) => {
 router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
 
     
-    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -3120,7 +3120,7 @@ router.get('/flipkartSwim%20&%20Beachwear', (req, res) => {
 router.get('/flipkartParty&20Dresses', (req, res) => {
 
     
-  winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+  winterWomen=[],  majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -3204,7 +3204,7 @@ router.get('/flipkartParty&20Dresses', (req, res) => {
 router.get('/flipkartSports%20Wear', (req, res) => {
 
     
-   winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+   winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
@@ -3288,7 +3288,7 @@ router.get('/flipkartSports%20Wear', (req, res) => {
 router.get('/flipkartSarees', (req, res) => {
 
     
-    winterWomen=[] ,majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+    winterWomen=[] ,majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [];
 
 
     async function f1(req, rep) {
@@ -3372,7 +3372,7 @@ router.get('/flipkartSarees', (req, res) => {
 router.get('/flipkartWinter%20Wear', (req, res) => {
 
     
-    winterWomen=[], majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
+     majCatFin = [],subCatMenFin = [],subCatWomenFin = [],footwearMen = [],sportShoesMen = [],casualShoesMen = [],formalShoesMen = [],sandalsMen = [],flipflopsMen = [],loafersMen = [],bootsMen = [],runningShoesMen = [],sneakersMen = [],clothingMen = [],topWearMen = [],tShirtsMen = [],formalShirtsMen = [],casualShirtsMen = [],bottomWearMen = [],jeansMen = [],casualTrousersMen = [],formalTrousersMen = [],trackPantsMen = [],clothingWomen = [],topwearWomen = [],dressesWomen = [],jeansWomen = [],shortsWomen = [],skirtsWomen = [],jeggingsWomen = [],trousersWomen = [],lingerieWomen = [],brasWomen = [],pantiesWomen = [],lingerieSetsWomen = [],nightDressesWomen = [],shapewearWomen = [],camisolesWomen = [],swimWomen = [],partyDressesWomen = [],sportswearWomen = [],sareesWomen = [];
 
 
     async function f1(req, rep) {
