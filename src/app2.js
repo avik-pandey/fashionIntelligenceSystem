@@ -12,9 +12,20 @@ var pinterest = require('./models/pintrest.js')
 var insta = require('./models/insta.js')
 const myntraRoute = require('./routers/myntra-route.js')
 const flipkartRoute = require('./routers/flipkart-route.js');
-const vogueRoute = require('./routers/vogue-route.js');
+const instaHashtagRoute = require('./routers/instaHashtag-route.js');
 const pinterestRoute = require('./routers/pinterest-route.js')
 const fs = require('fs')
+
+const mongoose = require('mongoose');
+
+var vogue = mongoose.Schema({
+    imgUrl: String,
+    category: String,
+
+}, { collection: 'magazine' });
+
+var vogue = mongoose.model("magazine", magazine);
+
 
 const app = express()
 const port = process.env.PORT || 3000;
@@ -26,7 +37,7 @@ app.set('view engine', 'ejs')
 app.use(express.static(filepath))
 app.use(myntraRoute);
 app.use(flipkartRoute);
-app.use(vogueRoute);
+app.use(instaHashtagRoute);
 app.use(pinterestRoute);
 
 
@@ -62,6 +73,98 @@ const categorize = async function(url) {
     
 }
 
+var vogueData = [],categorizeData = [],categorizeFinData = [],categories = [],categoriesFin = [];
+// async function f1(res,rep){
+//   let temp = await vogue.find({}, function (err, collection) {
+//        if(err)console.log(err)
+//        vogueData = collection;
+       
+//        for(var i = 0;i<vogueData.length;i++){
+//          var img = vogueData[i].img_link;
+//          var ans = categorize(img);
+//          vogue.updateOne({img_link : img},{$set:{category : ans}},function(req,rep){
+//              console.log(rep);
+//          })
+//        }
+
+
+//   })
+//   if(temp.err)
+//   console.log(err)
+//   else{
+//     console.log(vogueData)
+//   }
+
+//   let temp2 = await vogue.find({}, function(err,collection){
+//       if(err)console.log(err)
+//       categorizeFinData = collection;
+//       for (var i = 0; i < categorizeFinData.length; i++) {
+//         var fake = categorizeFinData[i].category
+//         categories.push(fake);
+//     }
+
+//     categoriesFin = Array.from(new Set(categories));
+
+//   })
+//   if (temp.err) {
+//     console.log(err)
+// }
+// else {
+//     console.log(categoriesFin);
+//     res.render('vogueIndia',{categoriesFin})
+// }
+  
+// }
+
+
+
+app.get('/vogueIndia',(req,res) =>{
+
+  async function f1(req,rep){
+    let temp = await vogue.find({}, function (err, collection) {
+         if(err)console.log(err)
+         vogueData = collection;
+         
+         for(var i = 0;i<vogueData.length;i++){
+           var img = vogueData[i].img_link;
+           var ans = categorize(img);
+           vogue.updateOne({img_link : img},{$set:{category : ans}},function(req,rep){
+               console.log(rep);
+           })
+         }
+  
+  
+    })
+    if(temp.err)
+    console.log(err)
+    else{
+      console.log(vogueData)
+    }
+  
+    let temp2 = await vogue.find({}, function(err,collection){
+        if(err)console.log(err)
+        categorizeFinData = collection;
+        for (var i = 0; i < categorizeFinData.length; i++) {
+          var fake = categorizeFinData[i].category
+          categories.push(fake);
+      }
+  
+      categoriesFin = Array.from(new Set(categories));
+  
+    })
+    if (temp.err) {
+      console.log(err)
+  }
+  else {
+      console.log(categoriesFin);
+      res.render('vogueIndia',{categoriesFin})
+  }
+    
+  }
+
+  f1();
+    
+})
 
 app.get('', async (req, res) => {
     res.render('index');
