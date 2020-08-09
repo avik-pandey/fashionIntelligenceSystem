@@ -57,7 +57,7 @@ router.get('/flipkart', (req, res) => {
             console.log(err)
         }
         else {
-
+           console.log(subCatMenFin)
         }
 
         let temp2 = await flipkart.find({ majorCategory: 'Women' }, function (err, collection) {
@@ -78,7 +78,7 @@ router.get('/flipkart', (req, res) => {
             console.log(err)
         }
         else {
-
+            console.log(subCatWomenFin);
             res.render("flipkart", { winterWomen, majCatFin ,subCatMenFin ,subCatWomenFin ,footwearMen ,sportShoesMen ,casualShoesMen ,formalShoesMen ,sandalsMen ,flipflopsMen ,loafersMen,bootsMen ,runningShoesMen ,sneakersMen ,clothingMen ,topWearMen ,tShirtsMen ,formalShirtsMen ,casualShirtsMen ,bottomWearMen ,jeansMen ,casualTrousersMen ,formalTrousersMen ,trackPantsMen ,clothingWomen ,topwearWomen ,dressesWomen ,jeansWomen ,shortsWomen ,skirtsWomen ,jeggingsWomen ,trousersWomen ,lingerieWomen ,brasWomen ,pantiesWomen ,lingerieSetsWomen ,nightDressesWomen ,shapewearWomen ,camisolesWomen ,swimWomen ,partyDressesWomen ,sportswearWomen ,sareesWomen 
             });  
         }
@@ -999,7 +999,7 @@ router.get('/flipkartClothing', (req, res) => {
 
         }
 
-        let temp3 = await flipkart.find({ subCategory: "Clothing" }, function (err, collection) {
+        let temp3 = await flipkart.find({ majorCategory:"Men",subCategory: "Clothing" }, function (err, collection) {
             if (err) console.log(err)
             clothingMen = collection;
             modelsFin = [];
@@ -1503,7 +1503,7 @@ router.get('/flipkartJeans', (req, res) => {
 
         }
 
-        let temp3 = await flipkart.find({ subCategory: "Jeans" }, function (err, collection) {
+        let temp3 = await flipkart.find({ majorCategory:"Men",subCategory: "Jeans" }, function (err, collection) {
             if (err) console.log(err)
             jeansMen = collection;
             modelsFin = [];
@@ -1839,7 +1839,7 @@ router.get('/flipkartClothing', (req, res) => {
 
         }
 
-        let temp3 = await flipkart.find({ subCategory: "Clothing" }, function (err, collection) {
+        let temp3 = await flipkart.find({ majorCategory:"Women",subCategory: "Clothing" }, function (err, collection) {
             if (err) console.log(err)
             clothingWomen = collection;
             modelsFin = [];
@@ -2091,7 +2091,7 @@ router.get('/flipkartJeans', (req, res) => {
 
         }
 
-        let temp3 = await flipkart.find({ subCategory: "Jeans" }, function (err, collection) {
+        let temp3 = await flipkart.find({ majorCategory:"Women",subCategory: "Jeans" }, function (err, collection) {
             if (err) console.log(err)
             jeansWomen = collection;
             modelsFin = [];
@@ -2259,7 +2259,7 @@ router.get('/flipkartShorts', (req, res) => {
 
         }
 
-        let temp3 = await flipkart.find({ subCategory: "Shorts" }, function (err, collection) {
+        let temp3 = await flipkart.find({majorCategory:"Women", subCategory: "Shorts" }, function (err, collection) {
             if (err) console.log(err)
             shortsWomen = collection;
             modelsFin = [];
