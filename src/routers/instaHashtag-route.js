@@ -15,7 +15,7 @@ var allMenItems = [];
 var subCatMen = [];
 var majCatFin = [];
 var subCatMenFin = [];
-var subCatWomenFin = [];
+var subCatWomenFin = []; 
 
 var tShirtsMen = [];
 router.get('/vogueupper%20body', (req, res) => {
