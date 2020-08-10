@@ -17,13 +17,7 @@ const spawn = require('child_process').spawn;
 const fs = require('fs')
 const mongoose = require('mongoose');
 
-var magazine = mongoose.Schema({
-    img_link: String,
-    category: String,
 
-}, { collection: 'magazine' });
-
-var magazine = mongoose.model("magazine", magazine);
 
 const app = express()
 const port = process.env.PORT || 3000; 
@@ -57,111 +51,97 @@ const loadDictionary = modelUrl => {
 
 
 
-const categorize = async function(url) {
-    request({ url, encoding: null }, async (err, resp, buffer) => {
-      img = buffer;
+async function categorize(url) {
+   request({ url, encoding: null }, async (err, resp, buffer) => {
+      if(err) throw err;
       const decodedImage = tf.node.decodeImage(buffer);
       const model = await loadImageClassification('./src/model.json');
       var prediction = await model.classify(decodedImage);
-      console.log(prediction);
-      return prediction;
+      var maxProb = prediction[0].prob;
+      var maxLabel = prediction[0].label;
+      for(var i = 1; i < prediction.length; i++){
+        if(prediction[i].prob > maxProb){
+          maxProb = prediction[i].prob;
+          maxLabel = prediction[i].label;
+        }
+        console.log(maxLabel);
+      }
+      magazine.updateOne({img_link : url},{$set:{category : maxLabel}},function(req,rep){
+               console.log(rep);
+           })
   });
 }
 
+
+
+    // var maxProb = prediction[0].prob;
+    // var maxLabel = prediction[0].label;
+    // for(var i = 1; i < prediction.length; i++){
+    //   if(prediction[i].prob > maxProb){
+    //     maxProb = prediction[i].prob;
+    //     maxLabel = prediction[i].label;
+    //   }
+    // }
+    // console.log(prediction);
+
+
+//https://images-na.ssl-images-amazon.com/images/I/81jadDIXfYL._UL1500_.jpg
+
+
+var magazine = mongoose.Schema({
+  img_link: String,
+  category: String,
+
+}, { collection: 'magazine' });
+
+var magazine = mongoose.model("magazine", magazine);
+
 var vogueData = [],categorizeData = [],categorizeFinData = [],categories = [],categoriesFin = [];
-// async function f1(res,rep){
-//   let temp = await vogue.find({}, function (err, collection) {
-//        if(err)console.log(err)
-//        vogueData = collection;
-       
-//        for(var i = 0;i<vogueData.length;i++){
-//          var img = vogueData[i].img_link;
-//          var ans = categorize(img);
-//          vogue.updateOne({img_link : img},{$set:{category : ans}},function(req,rep){
-//              console.log(rep);
-//          })
-//        }
-
-
-//   })
-//   if(temp.err)
-//   console.log(err)
-//   else{
-//     console.log(vogueData)
-//   }
-
-//   let temp2 = await vogue.find({}, function(err,collection){
-//       if(err)console.log(err)
-//       categorizeFinData = collection;
-//       for (var i = 0; i < categorizeFinData.length; i++) {
-//         var fake = categorizeFinData[i].category
-//         categories.push(fake);
-//     }
-
-//     categoriesFin = Array.from(new Set(categories));
-
-//   })
-//   if (temp.err) {
-//     console.log(err)
-// }
-// else {
-//     console.log(categoriesFin);
-//     res.render('vogueIndia',{categoriesFin})
-// }
-  
-// }
-
-
-
-app.get('/vogueIndia',(req,res) =>{
+app.get('/vogueIndia', (req, res) => {
+  // res.render('vogueIndia',{ categories,tShirtsMen, majCatFin ,subCatMenFin ,subCatWomenFin});
 
   async function f1(req,rep){
-    let temp = await vogue.find({}, function (err, collection) {
-         if(err)console.log(err)
-         vogueData = collection;
-         
-         for(var i = 0;i<vogueData.length;i++){
-           var img = vogueData[i].img_link;
-           var ans = categorize(img);
-	   console.log("whahaha")
-	   console.log(ans);
-           vogue.updateOne({img_link : img},{$set:{category : ans}},function(req,rep){
-               console.log(rep);
-           })
-         }
-  
-  
-    })
-    if(temp.err)
-    console.log(err)
-    else{
-      console.log(vogueData)
+      let temp = await magazine.find({}, function (err, collection) {
+           if(err)console.log(err)
+           vogueData = collection;
+           
+           for(var i = 0;i<vogueData.length;i++){
+            var img = vogueData[i].img_link;
+            categorize(img);
+           }
+    
+    
+      })
+      if(temp.err)
+      console.log(err)
+      else{
+        console.log(vogueData)
+      }
+    
+      let temp2 = await magazine.find({}, function(err,collection){
+          if(err)console.log(err)
+          categorizeFinData = collection;
+          for (var i = 0; i < categorizeFinData.length; i++) {
+            var fake = categorizeFinData[i].category
+            categories.push(fake);
+        }
+    
+        categoriesFin = Array.from(new Set(categories));
+    
+      })
+      if (temp2.err) {
+        console.log(err)
+    }
+    else {
+        console.log(categoriesFin);
+        res.render('vogueIndia',{categoriesFin})
+    }
+      
     }
   
-    let temp2 = await vogue.find({}, function(err,collection){
-        if(err)console.log(err)
-        categorizeFinData = collection;
-        for (var i = 0; i < categorizeFinData.length; i++) {
-          var fake = categorizeFinData[i].category
-          categories.push(fake);
-      }
-  
-      categoriesFin = Array.from(new Set(categories));
-  
-    })
-    if (temp2.err) {
-      console.log(err)
-  }
-  else {
-      console.log(categoriesFin);
-      res.render('vogueIndia',{categoriesFin})
-  }
-    
-  }
-
-  f1();
-    
+    f1();
 })
+
 
 app.get('', (req, res) => {
     res.render('index');
