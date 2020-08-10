@@ -3,9 +3,8 @@ const insta = require('../models/insta.js')
 var flipkart = require('../models/flipkart.js');
 const router = new express.Router()
 var categories = ['upper body','lower body','full body'];
-router.get('/vogueIndia', (req, res) => {
-    res.render('vogueIndia',{ categories,tShirtsMen, majCatFin ,subCatMenFin ,subCatWomenFin});
-})
+
+
 
 var allItems = [];
 var majCat = [];
